@@ -3,7 +3,7 @@
 - 🌱 I’m currently learning Software Development.
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me? Reach me on instagram pr discord.
-- ⚡ Fun fact: Im literly a gamer.
+- ⚡ Fun fact: Im literly a gamer and play games.
 
 <!---
 VectoDE/VectoDE is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
