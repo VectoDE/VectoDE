@@ -5,6 +5,9 @@
 - 📫 How to reach me? Reach me on instagram pr discord.
 - ⚡ Fun fact: Im literly a gamer and play games.
 
+- 📷 Social Media
+- Instagram: [vecto_de](https://www.instagram.com/vecto_de)
+
 <!---
 VectoDE/VectoDE is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
