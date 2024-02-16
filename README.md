@@ -23,9 +23,7 @@
 - [PlexCraft](https://plexcraft.net): With this project, I developed a complete Minecraft network. The network has its own cloud system. Developed using Java, HTML, CSS, Laravel, MySQL.
 
 # 🏆 Awards
-- [Award 1](Link to award):
-- [Award 2](Link to award):
-- [Award 3](Link to award):
+- coming soon
 
 # 🎮 Hobbies
 - As an avid gamer, I spend a lot of time playing various games and following gaming events. My favorite games are first-person shooters and strategy games.
