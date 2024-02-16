@@ -1,22 +1,34 @@
 # 👤 About
-- 👋 Hi, I’m @VectoDE
-- 👀 I’m interested in Web Development, Software Development and App Development.
-- 🌱 I’m currently learning Software Development.
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me? Reach me on instagram pr discord.
-- ⚡ Fun fact: Im literly a gamer and play games.
+- 👋 Hi, I'm @VectoDE.
+- 👀 I'm interested in Web Development, Software Development, and App Development.
+- 🌱 I'm currently learning Software Development.
+- 💞️ I'm looking to collaborate on ...
+- 📫 How to reach me? Reach me on Instagram or Discord.
+- ⚡ Fun fact: I'm literally a gamer and play games.
 
 # 📷 Social Media
-- LinkedIn: [Tim Hauke](https://www.linkedin.com/in/tim-hauke)
-- Instagram: [vecto_de](https://www.instagram.com/vecto_de)
-- Twitch: [vectode](https://twitch.tv/vectode)
-- TikTok: [vectode](https://www.tiktok.com/@vectode)
-- YouTube: [vectode](https://youtube.com/@vectode)
+- On [LinkedIn](https://www.linkedin.com/in/tim-hauke), you can find my professional background and interests.
+- On [Instagram](https://www.instagram.com/vecto_de), I share insights into my life and projects.
+- On [Twitch](https://twitch.tv/vectode), you can watch me play games and interact with me.
+- [TikTok](https://www.tiktok.com/@vectode) is where I share short and entertaining videos.
+- On [YouTube](https://youtube.com/@vectode), I share tutorials, gameplay videos, and much more.
 
 # 📜 Certificates
-- coming soon
+- I am currently actively working on certificates to deepen my knowledge and skills in various areas of development. I will share them here soon!
 
-<!---
-VectoDE/VectoDE is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+# 💼 Projects
+- [System Discord Bot](https://system-bot.net): This project is a Discord bot for managing Discord servers with a web dashboard. Development was done using NodeJS, EJS, and CSS.
+- [PlayGS Network](https://www.playgs.de): This Minecraft network is the old famous PGS network, which used to run with an average of 280 users. The network is making a comeback.
+- [Reverox Web System](https://reverox.net): This is a web application for the presence of the Minecraft network. I was part of the team in the development.
+- [PlexCraft](https://plexcraft.net): With this project, I developed a complete Minecraft network. The network has its own cloud system. Developed using Java, HTML, CSS, Laravel, MySQL.
+
+# 🏆 Awards
+- [Award 1](Link to award):
+- [Award 2](Link to award):
+- [Award 3](Link to award):
+
+# 🎮 Hobbies
+- As an avid gamer, I spend a lot of time playing various games and following gaming events. My favorite games are first-person shooters and strategy games.
+
+# 📱 Applications
+- Besides my work, I enjoy creating applications, websites, systems, clouds, and much more.
