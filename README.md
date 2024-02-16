@@ -6,7 +6,14 @@
 - ⚡ Fun fact: Im literly a gamer and play games.
 
 - 📷 Social Media
+- LinkedIn: [Tim Hauke](https://www.linkedin.com/in/tim-hauke)
 - Instagram: [vecto_de](https://www.instagram.com/vecto_de)
+- Twitch: [vectode](https://twitch.tv/vectode)
+- TikTok: [vectode](https://www.tiktok.com/@vectode)
+- YouTube: [vectode](https://youtube.com/@vectode)
+
+- 📜 Certificates
+- coming soon
 
 <!---
 VectoDE/VectoDE is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
