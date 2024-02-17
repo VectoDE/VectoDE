@@ -20,7 +20,7 @@
 - [System Discord Bot](https://system-bot.net): This project is a Discord bot for managing Discord servers with a web dashboard. Development was done using NodeJS, EJS, and CSS.
 - [PlayGS Network](https://www.playgs.de): This Minecraft network is the old famous PGS network, which used to run with an average of 280 users. The network is making a comeback.
 - [Reverox Web System](https://reverox.net): This is a web application for the presence of the Minecraft network. I was part of the team in the development.
-- [PlexCraft](https://plexcraft.net): With this project, I developed a complete Minecraft network. The network has its own cloud system. Developed using Java, HTML, CSS, Laravel, MySQL.
+- [PloxCraft](https://ploxcraft.net): With this project, I developed a complete Minecraft network. The network has its own cloud system. Developed using Java, HTML, CSS, Laravel, MySQL.
 
 # 🏆 Awards
 - coming soon
