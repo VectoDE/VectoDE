@@ -14,7 +14,7 @@
 - On [YouTube](https://youtube.com/@vectode), I share tutorials, gameplay videos, and much more.
 
 # 📜 Certificates
-- I am currently actively working on certificates to deepen my knowledge and skills in various areas of development. I will share them here soon!
+- SEO, PHP, NodeJS, NextJS, Linux, Laravel, JavaScript, Java, IT Basics, IPv4 & Networking, HTML, GraphQL, Git, Fundamentals
 
 # 💼 Projects
 - [System Discord Bot](https://system-bot.net): This project is a Discord bot for managing Discord servers with a web dashboard. Development was done using NodeJS, EJS, and CSS.
