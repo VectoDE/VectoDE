@@ -21,6 +21,7 @@
 - [PlayGS Netzwerk](https://www.playgs.de): This Minecraft network is the old famous PGS network, which used to run with an average of 280 users. The network is making a comeback.
 - [PloxCraft](https://ploxcraft.net): With this project, I developed a complete Minecraft network. The network has its own cloud system. Developed using Java, HTML, CSS, Laravel, MySQL.
 - [Reverox Web System](https://reverox.net): This is a web application for the presence of the Minecraft network. I was part of the team in the development.
+- [Bre4kF4st Merchandise & Tournament Planner](https://www.bre4kf4st.com): Bre4kF4st was an eSports Tournament planner for a few games of esports. It had merchandise and other clothes stuff.
 
 # 🏆 Awards
 - coming soon
