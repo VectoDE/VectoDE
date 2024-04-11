@@ -3,7 +3,7 @@
 - 👀 I'm interested in Web Development, Software Development, and Bot Development.
 - 🌱 I'm currently learning Software Development.
 - 💞️ I'm looking to collaborate on ...
-- 📫 How to reach me? Reach me on [Instagram](https://www.instagram.com/vecto_de/) or [Discord](https://discord.gg/DtHPAEHxZk).
+- 📫 How to reach me? Reach me on [Instagram](https://www.instagram.com/vecto_de/) or [Discord](https://discord.gg/DtHPAEHxZk) or [LinkedIn](https://www.linkedin.com/in/tim-hauke-b3b24b2b5).
 - ⚡ Fun fact: I'm literally a gamer and play games.
 
 # 📷 Social Media
