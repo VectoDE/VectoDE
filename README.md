@@ -14,7 +14,6 @@
 - On [YouTube](https://youtube.com/@vectode), I share tutorials, gameplay videos, and much more.
 
 # 📜 Certificates
-- LinkedIn Learning: Grundlagen der Webprogrammierung: Meine erste Website
 - LinkedIn Learning: [Grundlagen der Webprogrammierung: Meine erste Website](https://www.linkedin.com/learning/certificates/f47b61d11d2dbfdefb9374ba527ed2c51c5ca6cec9d538d12a01ca4f02070412)
 - LinkedIn Learning: [Webtechniken lernen 1: HTML](https://www.linkedin.com/learning/certificates/0449b01c9aa6690d194c06dfcf9ac853abe3051ff1a03e79cef21cc742a8b81c)
 - LinkedIn Learning: [Webtechniken lernen 2: CSS-Grundlagen](https://www.linkedin.com/learning/certificates/0ff6d7e2b2a908173c1482e8b2e44dce6c43928b1271375cf29e7f2e3324595b)
