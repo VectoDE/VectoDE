@@ -1,47 +1,79 @@
-# 👤 About
-👋 Hi, I'm @VectoDE. I am a passionate individual with a keen interest in Web Development, Software Development, and Bot Development. Currently, I am dedicated to expanding my expertise in Software Development. Feel free to reach out to me on Instagram, Discord, or LinkedIn.
+# VectoDE GitHub Profile
 
-⚡ Fun fact: I'm an avid gamer and enjoy spending my leisure time playing various games.
+## 👤 About
 
-# 📷 Social Media
-- LinkedIn: Explore my professional background and interests.
-- Instagram: Gain insights into my life and projects.
-- Twitch: Join me for gaming sessions and interactive streams.
-- TikTok: Discover short and entertaining videos.
-- YouTube: Access tutorials, gameplay videos, and more.
+- 👋 Hi, I'm Tim, also known as @VectoDE.
+- 🌐 I'm passionate about web development, focusing on frontend development with Vue.js 3 and backend development with Node.js and Express.js.
+- 🌱 Currently enhancing my skills and working on a major frontend project for my Frontend Web Developer certification.
+- 🚀 Open to collaboration on innovative projects and keen on continuous learning.
+- 📫 Reach out to me on [LinkedIn](https://www.linkedin.com/in/tim-hauke/), [Instagram](https://www.instagram.com/tim.vectode), or [Discord](https://discord.com/invite/your-invite-code).
+- ⚡ Fun fact: I'm an avid gamer, deeply involved in the gaming community.
 
-# 📜 Certificates
-- LinkedIn Learning: Fundamentals of Web Development: My First Website
-- LinkedIn Learning: Learning Web Technologies 1: HTML
-- LinkedIn Learning: Learning Web Technologies 2: CSS Basics
-- LinkedIn Learning: Learning Web Technologies 3: Responsive CSS Layouts with Media Queries, Flexbox, and Grid
-- LinkedIn Learning: Learning Web Technologies 4: JavaScript
-- LinkedIn Learning: Learning Vue.js
-- LinkedIn Learning: Developing a Web Interface with React.js
-- Programming Hub: Git, GraphQL, JavaScript, Laravel, PHP, Linux, IPv4 & Networking, IT-Basic, NextJS, SEO, HTML, NodeJS, Growth Hacking
-- LinkedIn Learning: The 7 Deadly Communication Mistakes
-- LinkedIn Learning: Tax Basics for Freelancers, Small Business Owners, and Entrepreneurs
-- LinkedIn Learning: Professional Networking
-- LinkedIn Learning: Legal Fundamentals: Industry 4.0 and Internet of Things (IoT)
-- LinkedIn Learning: Assertiveness: Never Speechless Again
-- LinkedIn Learning: Small Talk & Networking
+## 📷 Social Media
 
-# 💼 Projects
-- System Discord Bot: Developed using NodeJS, EJS, and CSS, this Discord bot facilitates server management through a web dashboard.
-- PlayGS Network: Formerly known as the PGS network, this Minecraft network is making a comeback.
-- PeelCraft: A complete Minecraft network with its own cloud system, developed using Java, HTML, CSS, Laravel, MySQL.
-- Reverox Web System: A web application for the presence of the Minecraft network.
-- Bre4kF4st Merchandise & Tournament Planner: An eSports Tournament planner with merchandise and apparel.
+- **[LinkedIn](https://www.linkedin.com/in/tim-hauke/)**: Explore my professional background and interests.
+- **[Instagram](https://www.instagram.com/tim.vectode)**: Get insights into my life and projects.
+- **[Twitch](https://www.twitch.tv/your-twitch-channel)**: Watch me play games and interact live.
+- **[TikTok](https://www.tiktok.com/@your-tiktok-handle)**: Short, entertaining videos.
+- **[YouTube](https://www.youtube.com/your-youtube-channel)**: Tutorials, gameplay videos, and more.
 
-# 🏆 Awards
+## 🛠️ Skills
+
+- **Frontend**: HTML5, CSS3, JavaScript, Vue.js 3, React.js, Next.js
+- **Backend**: Node.js, Express.js, PHP, Laravel, MongoDB
+- **Tools & Technologies**: Git, GraphQL, MySQL, Linux, Docker, EJS
+- **Others**: Growth Hacking, SEO, Networking
+
+## 📜 Certificates
+
+- **LinkedIn Learning**:
+  - Grundlagen der Webprogrammierung: Meine erste Website
+  - Webtechniken lernen 1: HTML
+  - Webtechniken lernen 2: CSS-Grundlagen
+  - Webtechniken lernen 3: Responsive CSS-Layouts mit Media Queries, Flexbox und Grid
+  - Webtechniken lernen 4: JavaScript
+  - Vue.js lernen
+  - React.js: Ein Web-Interface entwickeln
+- **Programming Hub**:
+  - Git
+  - GraphQL
+  - JavaScript
+  - Laravel
+  - PHP
+  - Linux
+  - IPv4 & Networking
+  - IT-Basic
+  - NextJS
+  - SEO
+  - HTML
+  - NodeJS
+  - Growth Hacking
+- **LinkedIn Learning**:
+  - Die 7 Schlimmsten Kommunikationsfehler
+  - Steuergrundlagen für Selbstständige, Kleinunternehmer:innen und Gründer:innen
+  - Professionell netzwerken
+  - Rechtsgrundlagen: Industrie 4.0 und Internet of Things (IoT)
+  - Schlagfertigkeit: Nie wieder sprachlos
+  - Small Talk & Networking
+
+## 💼 Projects
+
+- **System Discord Bot**: A Discord bot for managing servers with a web dashboard. Built with NodeJS, EJS, and CSS.
+- **PlayGS Netzwerk**: Revival of the old PGS Minecraft network, previously hosting 280 users on average.
+- **PeelCraft**: Developed a complete Minecraft network with its own cloud system using Java, HTML, CSS, Laravel, and MySQL.
+- **Reverox Web System**: A web application for the Minecraft network presence. Contributed as part of the development team.
+- **Bre4kF4st Merchandise & Tournament Planner**: An eSports tournament planner with merchandise options.
+
+## 🏆 Awards
+
 - Coming soon
 
-# 🎮 Hobbies
-- Gaming: I enjoy playing first-person shooters and strategy games.
-- Development: I am passionate about creating applications, websites, and systems.
-- Design Fundamentals: I have basic knowledge in design, although I'm not a big fan of it.
+## 🎮 Hobbies
 
-# 📱 Applications
-- Besides my work, I enjoy creating applications, websites, systems, and much more.
+- Gaming: Spending time playing various games and following gaming events.
+- Development: Building applications, websites, and systems.
+- Learning: Continuously expanding my knowledge and skills.
 
-Feel free to connect with me for further discussions and collaborations!
+## 📱 Applications
+
+- Enjoy creating applications, websites, and systems beyond my professional work.
