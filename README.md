@@ -12,16 +12,17 @@
 ## 📷 Social Media
 
 - **[LinkedIn](https://www.linkedin.com/in/tim-hauke/)**: Explore my professional background and interests.
-- **[Instagram](https://www.instagram.com/tim.vectode)**: Get insights into my life and projects.
-- **[Twitch](https://www.twitch.tv/your-twitch-channel)**: Watch me play games and interact live.
-- **[TikTok](https://www.tiktok.com/@your-tiktok-handle)**: Short, entertaining videos.
-- **[YouTube](https://www.youtube.com/your-youtube-channel)**: Tutorials, gameplay videos, and more.
+- **[Instagram](https://www.instagram.com/vectode)**: Get insights into my life and projects.
+- **[Twitch](https://www.twitch.tv/vectode)**: Watch me play games and interact live.
+- **[TikTok](https://www.tiktok.com/@vectode)**: Short, entertaining videos.
+- **[YouTube](https://www.youtube.com/vectode)**: Tutorials, gameplay videos, and more.
 
 ## 🛠️ Skills
 
 - **Frontend**: HTML5, CSS3, JavaScript, Vue.js 3, React.js, Next.js
-- **Backend**: Node.js, Express.js, PHP, Laravel, MongoDB
-- **Tools & Technologies**: Git, GraphQL, MySQL, Linux, Docker, EJS
+- **Backend**: Node.js, Express.js, PHP, Laravel
+- **Database**: MongoDB, MySQL, SQLite, Multer (local storage)
+- **Tools & Technologies**: Git, GraphQL, Linux, Docker, EJS
 - **Others**: Growth Hacking, SEO, Networking
 
 ## 📜 Certificates
