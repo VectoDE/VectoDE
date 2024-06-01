@@ -1,5 +1,3 @@
-# VectoDE GitHub Profile
-
 ## 👤 About
 
 - 👋 Hi, I'm Tim, also known as @VectoDE.
