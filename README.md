@@ -17,10 +17,11 @@
 
 ## 🛠️ Skills
 
-- **Frontend**: HTML5, CSS3, JavaScript, Vue.js 3, React.js, Next.js
-- **Backend**: Node.js, Express.js, PHP, Laravel
+- **Frontend**: HTML5, CSS3, JavaScript, Vue.js, React.js, Next.js
+- **Backend**: Node.js, Express.js, PHP, Laravel, Python, C#, C++
 - **Database**: MongoDB, MySQL, SQLite, Multer (local storage)
-- **Tools & Technologies**: Git, GraphQL, Linux, Docker, EJS
+- **Mobile**: Flutter, React.js Expo
+- **Tools & Technologies**: Git, GraphQL, Linux, Docker, NPM/Node
 - **Others**: Growth Hacking, SEO, Networking
 
 ## 📜 Certificates
