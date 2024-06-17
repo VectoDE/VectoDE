@@ -58,6 +58,7 @@
 
 ## 💼 Projects
 
+- **Backend API**: A complete backend api for a blog, e-commerce, ticketing, management of additional things, it have much more then this.
 - **System Discord Bot**: A Discord bot for managing servers with a web dashboard. Built with NodeJS, EJS, and CSS.
 - **PlayGS Netzwerk**: Revival of the old PGS Minecraft network, previously hosting 280 users on average.
 - **PeelCraft**: Developed a complete Minecraft network with its own cloud system using Java, HTML, CSS, Laravel, and MySQL.
