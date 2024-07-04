@@ -1,7 +1,7 @@
 ## 👤 About
 
 - 👋 Hi, I'm Tim, also known as @VectoDE.
-- 🌐 I'm passionate about web development, focusing on frontend development with Vue.js 3 and backend development with Node.js and Express.js.
+- 🌐 I'm passionate about web technologies, specializing in frontend work with Vue.js 3 and backend solutions with Node.js and Express.js.
 - 🌱 Currently enhancing my skills and working on a major frontend project for my Frontend Web Developer certification.
 - 🚀 Open to collaboration on innovative projects and keen on continuous learning.
 - 📫 Reach out to me on [LinkedIn](https://www.linkedin.com/in/tim-hauke/), [Instagram](https://www.instagram.com/tim.vectode), or [Discord](https://discord.gg/DtHPAEHxZk).
