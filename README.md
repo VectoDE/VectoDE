@@ -63,6 +63,7 @@ My experiences can you find on my learning projects account [@timhauke](https://
 
 ## 💼 Projects
 
+- **Serverwerk Team Management System & API**: Complete team management system for a minecraft network in vue.js with a backend of node.js with mysql.
 - **Backend API**: A complete backend api for a blog, e-commerce, ticketing, management of additional things, it have much more then this.
 - **System Discord Bot**: A Discord bot for managing servers with a web dashboard. Built with NodeJS, EJS, and CSS.
 - **PlayGS Netzwerk**: Revival of the old PGS Minecraft network, previously hosting 280 users on average.
