@@ -63,6 +63,7 @@ My experiences can you find on my learning projects account [@timhauke](https://
 
 ## 💼 Projects
 
+- **NodCord**: A Node.js RestFul API with Express.js and an integrated discord bot with discord.js v14 with a integrated dashboard wich can control everything of this application. Its useable directly in the api the frontend and you can use the frontend outsite of the api.
 - **Serverwerk Team Management System & API**: Complete team management system for a minecraft network in vue.js with a backend of node.js with mysql.
 - **Backend API**: A complete backend api for a blog, e-commerce, ticketing, management of additional things, it have much more then this.
 - **System Discord Bot**: A Discord bot for managing servers with a web dashboard. Built with NodeJS, EJS, and CSS.
