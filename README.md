@@ -5,7 +5,7 @@
 ## 👤 About
 
 - 👋 Hi, I'm Tim, also known as @VectoDE.
-- 🌐 I'm passionate about web technologies, specializing in frontend work with Vue.js 3 and backend solutions with Node.js and Express.js.
+- 🌐 I'm passionate about web technologies, specializing in frontend work with Vue.js 3 and backend solutions in TypeScript with Node.js and Express.js.
 - 🌱 Currently enhancing my skills and working on a major frontend project for my Frontend Web Developer certification.
 - 🚀 Open to collaboration on innovative projects and keen on continuous learning.
 - 📫 Reach out to me on [LinkedIn](https://www.linkedin.com/in/tim-hauke/), [Instagram](https://www.instagram.com/tim.vectode), or [Discord](https://discord.gg/DtHPAEHxZk).
@@ -21,8 +21,8 @@
 
 ## 🛠️ Skills
 
-- **Frontend**: HTML5, CSS3, JavaScript, Vue.js, React.js, Next.js
-- **Backend**: Node.js, Express.js, PHP, Laravel, Python, C#, C++
+- **Frontend**: HTML5, CSS3, JavaScript, TypeScript, Vue.js, React.js, Next.js
+- **Backend**: Node.js, Express.js, TypeScript, PHP, Laravel, C++
 - **Database**: MongoDB, MySQL, SQLite, Multer (local storage)
 - **Mobile**: Flutter, React.js Expo
 - **Tools & Technologies**: Git, GraphQL, Linux, Docker, NPM/Node
