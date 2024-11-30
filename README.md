@@ -1,5 +1,4 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=VectoDE&style=flat-square&color=blue)
-![GitHub Profile](https://img.shields.io/badge/GitHub-Profile-181717?style=flat-square&logo=github)
 ![Stars](https://img.shields.io/github/stars/VectoDE?style=flat-square&color=ffcc33&label=Stars)
 ![Repositories](https://img.shields.io/badge/Repositories-10+-blue?style=flat-square&logo=github)
 
