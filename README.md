@@ -1,6 +1,6 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=VectoDE&style=flat-square&color=blue)
 ![Stars](https://img.shields.io/github/stars/VectoDE?style=flat-square&color=ffcc33&label=Stars)
-![Repositories](https://img.shields.io/badge/Repositories-10+-blue?style=flat-square&logo=github)
+![Repositories](https://img.shields.io/badge/Repositories-5+-blue?style=flat-square&logo=github)
 
 ## 👤 About
 
