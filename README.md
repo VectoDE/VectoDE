@@ -10,7 +10,7 @@
 
 ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white) ![Livewire](https://img.shields.io/badge/livewire-%234e56a6.svg?style=for-the-badge&logo=livewire&logoColor=white)
 
-![Java](https://img.shields.io/badge/Java-%23007396.svg?style=for-the-badge&logo=java&logoColor=white)
+![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white)
 
@@ -22,7 +22,7 @@
 
 ![Fundamentals](https://img.shields.io/badge/Fundamentals-%2300A1F1.svg?style=for-the-badge&logo=Google) ![IT Basics](https://img.shields.io/badge/IT%20Basics-%2300A1F1.svg?style=for-the-badge&logo=Google) ![Linux](https://img.shields.io/badge/Linux-%23FCC624.svg?style=for-the-badge&logo=linux&logoColor=black) ![IPv4 & Networking](https://img.shields.io/badge/IPv4%20%26%20Networking-%231572B6.svg?style=for-the-badge&logo=cisco)
 
-![Professionel Netzwerken](https://img.shields.io/badge/Professionel%20Netzwerken-%23F37021.svg?style=for-the-badge&logo=linkedin) ![Schlagfertig](https://img.shields.io/badge/Schlagfertig-%23FF7300.svg?style=for-the-badge&logo=google) ![Small Talk & Networking](https://img.shields.io/badge/Small%20Talk%20%26%20Networking-%2300A1F1.svg?style=for-the-badge&logo=google) ![Steuergrundlagen](https://img.shields.io/badge/Steuergrundlagen-%23000.svg?style=for-the-badge&logo=gov)
+![Professional Networking](https://img.shields.io/badge/Professionel%20Netzwerken-%23F37021.svg?style=for-the-badge&logo=linkedin) ![Quick-Witted](https://img.shields.io/badge/Schlagfertig-%23FF7300.svg?style=for-the-badge&logo=google) ![Small Talk & Networking](https://img.shields.io/badge/Small%20Talk%20%26%20Networking-%2300A1F1.svg?style=for-the-badge&logo=google) ![Tax Bases](https://img.shields.io/badge/Steuergrundlagen-%23000.svg?style=for-the-badge&logo=gov)
 
 ## 💼 Projects
 
@@ -37,8 +37,8 @@
 - **Bre4kF4st Merchandise & Tournament Planner**: An eSports tournament planner with merchandise options.
 
 # 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=VectoDE&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=VectoDE&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api?username=VectoDE&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=VectoDE&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 ---
