@@ -1,12 +1,3 @@
-## 👤 About
-
-- 👋 Hi, I'm Tim, also known as @VectoDE.
-- 🌐 I'm passionate about web technologies, specializing in frontend work with Vue.js 3 and backend solutions in TypeScript with Node.js and Express.js.
-- 🌱 Currently enhancing my skills and working on a major frontend project for my Frontend Web Developer certification.
-- 🚀 Open to collaboration on innovative projects and keen on continuous learning.
-- 📫 Reach out to me on [LinkedIn](https://www.linkedin.com/in/tim-hauke/), [Instagram](https://www.instagram.com/tim.vectode), or [Discord](https://discord.gg/DtHPAEHxZk).
-- ⚡ Fun fact: I'm an avid gamer, deeply involved in the gaming community.
-
 # 🌐 Socials:
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/vecto.) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/vecto_de) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/tim-hauke-b3b24b2b5) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@vectode) [![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?logo=Twitch&logoColor=white)](https://twitch.tv/vectode) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/vectode) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@vectode) 
 
@@ -49,46 +40,6 @@
 
   ## 💰 You can help me by Donating
   [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/TimHauke99) 
-  
-## 📜 Certificates
-
-- **freeCodeCamp**:
-  - Responsive Webdesign
-- **LinkedIn Learning**:
-  - Grundlagen der Webprogrammierung: Meine erste Website
-  - Webtechniken lernen 1: HTML
-  - Webtechniken lernen 2: CSS-Grundlagen
-  - Webtechniken lernen 3: Responsive CSS-Layouts mit Media Queries, Flexbox und Grid
-  - Webtechniken lernen 4: JavaScript
-  - Vue.js lernen
-  - React.js: Ein Web-Interface entwickeln
-- **Programming Hub**:
-  - Git
-  - GraphQL
-  - JavaScript
-  - Laravel
-  - PHP
-  - Linux
-  - IPv4 & Networking
-  - IT-Basic
-  - NextJS
-  - SEO
-  - HTML
-  - NodeJS
-  - Growth Hacking
-- **LinkedIn Learning**:
-  - Die 7 Schlimmsten Kommunikationsfehler
-  - Steuergrundlagen für Selbstständige, Kleinunternehmer:innen und Gründer:innen
-  - Professionell netzwerken
-  - Rechtsgrundlagen: Industrie 4.0 und Internet of Things (IoT)
-  - Schlagfertigkeit: Nie wieder sprachlos
-  - Small Talk & Networking
- 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=VectoDE&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=VectoDE&limit=5&theme=dark&combine_all_yearly_contributions=true)
