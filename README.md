@@ -27,6 +27,29 @@
 
 ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white) ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-FFFFFF?&style=for-the-badge&logo=opentelemetry&logoColor=black) ![Home Assistant](https://img.shields.io/badge/home%20assistant-%2341BDF5.svg?style=for-the-badge&logo=home-assistant&logoColor=white) ![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi) ![Plex](https://img.shields.io/badge/plex-%23E5A00D.svg?style=for-the-badge&logo=plex&logoColor=white) ![Steam](https://img.shields.io/badge/steam-%23000000.svg?style=for-the-badge&logo=steam&logoColor=white)
 
+## 💼 Projects
+
+- **API of UplyTech**: A Node.js RestFul API with Express.js writen in TypeScript and used Socket.io, googleapi and additional packages they are needed in the api with integrated discord bot and verification.
+- **NodCord**: A Node.js RestFul API with Express.js and an integrated discord bot with discord.js v14 with a integrated dashboard wich can control everything of this application. Its useable directly in the api the frontend and you can use the frontend outsite of the api.
+- **Serverwerk Team Management System & API**: Complete team management system for a minecraft network in vue.js with a backend of node.js with mysql.
+- **Backend API**: A complete backend api for a blog, e-commerce, ticketing, management of additional things, it have much more then this.
+- **System Discord Bot**: A Discord bot for managing servers with a web dashboard. Built with NodeJS, EJS, and CSS.
+- **PlayGS Netzwerk**: Revival of the old PGS Minecraft network, previously hosting 280 users on average.
+- **PeelCraft**: Developed a complete Minecraft network with its own cloud system using Java, HTML, CSS, Laravel, and MySQL.
+- **Reverox Web System**: A web application for the Minecraft network presence. Contributed as part of the development team.
+- **Bre4kF4st Merchandise & Tournament Planner**: An eSports tournament planner with merchandise options.
+
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=VectoDE&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=VectoDE&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=VectoDE&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+
+---
+[![](https://visitcount.itsvg.in/api?id=VectoDE&icon=0&color=0)](https://visitcount.itsvg.in)
+
+  ## 💰 You can help me by Donating
+  [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/TimHauke99) 
+  
 ## 📜 Certificates
 
 - **freeCodeCamp**:
@@ -69,26 +92,3 @@
 
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=VectoDE&limit=5&theme=dark&combine_all_yearly_contributions=true)
-
-## 💼 Projects
-
-- **API of UplyTech**: A Node.js RestFul API with Express.js writen in TypeScript and used Socket.io, googleapi and additional packages they are needed in the api with integrated discord bot and verification.
-- **NodCord**: A Node.js RestFul API with Express.js and an integrated discord bot with discord.js v14 with a integrated dashboard wich can control everything of this application. Its useable directly in the api the frontend and you can use the frontend outsite of the api.
-- **Serverwerk Team Management System & API**: Complete team management system for a minecraft network in vue.js with a backend of node.js with mysql.
-- **Backend API**: A complete backend api for a blog, e-commerce, ticketing, management of additional things, it have much more then this.
-- **System Discord Bot**: A Discord bot for managing servers with a web dashboard. Built with NodeJS, EJS, and CSS.
-- **PlayGS Netzwerk**: Revival of the old PGS Minecraft network, previously hosting 280 users on average.
-- **PeelCraft**: Developed a complete Minecraft network with its own cloud system using Java, HTML, CSS, Laravel, and MySQL.
-- **Reverox Web System**: A web application for the Minecraft network presence. Contributed as part of the development team.
-- **Bre4kF4st Merchandise & Tournament Planner**: An eSports tournament planner with merchandise options.
-
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=VectoDE&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=VectoDE&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=VectoDE&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
----
-[![](https://visitcount.itsvg.in/api?id=VectoDE&icon=0&color=0)](https://visitcount.itsvg.in)
-
-  ## 💰 You can help me by Donating
-  [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/TimHauke99) 
