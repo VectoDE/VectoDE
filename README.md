@@ -26,6 +26,8 @@
 
 ## 💼 Projects
 
+- **NetSecMaster**: 
+- **Password Checker**: A password checker in go which can checks your password if it exist in the web and it is secured, also you can create a password via bit numbers..
 - **API of UplyTech**: A Node.js RestFul API with Express.js writen in TypeScript and used Socket.io, googleapi and additional packages they are needed in the api with integrated discord bot and verification.
 - **NodCord**: A Node.js RestFul API with Express.js and an integrated discord bot with discord.js v14 with a integrated dashboard wich can control everything of this application. Its useable directly in the api the frontend and you can use the frontend outsite of the api.
 - **Serverwerk Team Management System & API**: Complete team management system for a minecraft network in vue.js with a backend of node.js with mysql.
