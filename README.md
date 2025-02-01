@@ -26,7 +26,7 @@
 
 ## 💼 Projects
 
-- **ServerCommander**: 
+- **ServerCommander**: ServerCommander is a powerful, modular tool for managing and controlling local and remote servers via SSH, FTP, and more, with a sleek CLI interface written in go.
 - **NetSecMaster**: A powerful network management and security tool for monitoring, troubleshooting, and detecting security vulnerabilities and attacks in C++.
 - **Password Checker**: A password checker in go which can checks your password if it exist in the web and it is secured, also you can create a password via bit numbers.
 - **API of UplyTech**: A Node.js RestFul API with Express.js writen in TypeScript and used Socket.io, googleapi and additional packages they are needed in the api with integrated discord bot and verification.
