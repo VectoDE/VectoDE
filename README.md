@@ -6,6 +6,8 @@
 
 ## 💼 Projects
 
+- **MitFits Gaming**: An eSports, Club and Hosting a Website and a overall api to manage everything, a discord bit with integrated api to communicate with the main api, written in TypeScript, Next.js, Discord.js, etc.
+- **Portfolio**: A powerful next.js portfolio website with dashboard and settings, using prisma, Projects, Certificates, etc. also have a timeline about your career.
 - **LifeVerse**: This is a game which have a api, discord bot, website and the game himself written in UE5, C++, React, TypeScript and Node, the game have the logic of realism copy of the real life, you can do everything from the real in the game.
 - **ServerCommander**: ServerCommander is a powerful, modular tool for managing and controlling local and remote servers via SSH, FTP, and more, with a sleek CLI interface written in go.
 - **NetSecMaster**: A powerful network management and security tool for monitoring, troubleshooting, and detecting security vulnerabilities and attacks in C++.
