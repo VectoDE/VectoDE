@@ -23,9 +23,8 @@
 - **Bre4kF4st Merchandise & Tournament Planner**: An eSports tournament planner with merchandise options.
 
 # 📊 GitHub Stats:
-![](https://github-readme-streak-stats.herokuapp.com/?user=VectoDE&theme=dark&hide_border=false)<br/>
+[![VectoDE's GitHub stats](https://github-readme-stats.vercel.app/api?username=VectoDE)](https://github.com/VectoDE/github-readme-stats)<br/>
 ![](https://github-readme-stats.vercel.app/api?username=VectoDE&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=VectoDE&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 ---
 
