@@ -95,7 +95,7 @@
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=VectoDE&show_icons=true&theme=radical)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=VectoDE&layout=compact&theme=radical)
 
-## 📊 Contribution Heatmap (Optional)
+## 📊 Contribution Heatmap
 ![GitHub Dark Heatmap](https://ghchart.rshah.org/VectoDE)
 
 ---
