@@ -1,6 +1,6 @@
 # Hi 👋, I'm VectoDE
 
-💻 Founder of UplyTech | Full-Stack Developer | Open-Source Enthusiast
+💻 Founder of UplyTech | Full-Stack Developer | Tech Enthusiast
 
 ![Followers](https://img.shields.io/github/followers/VectoDE?label=Followers&color=blue) ![Stars Received](https://img.shields.io/github/stars/VectoDE?label=Stars&color=red)
 
