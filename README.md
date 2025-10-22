@@ -8,7 +8,7 @@
 
 ## 🚀 About Me
 - 🌱 Working with **MEVN, MERN, MEEN, MENN Stacks**, TypeScript, MySQL, Prisma, TailwindCSS  
-- 🔭 Current Projects: [MitFits Gaming](https://github.com/Mitfits-Gaming), [NodCord](https://github.com/VectoDE/NodCord), [LifeVerse](https://github.com/VectoDE/LifeVerse)  
+- 🔭 Current Projects: [GTA V Server](https://github.com/VectoDE/GTA-V-Server), [MitFits Gaming](https://github.com/Mitfits-Gaming), [NodCord](https://github.com/VectoDE/NodCord), [LifeVerse](https://github.com/VectoDE/LifeVerse)  
 - 👯 Open to collaborations in **Web Development, APIs & Discord Bots**  
 - ⚡ Fun Fact: I love turning complex systems into efficient and scalable solutions  
 
