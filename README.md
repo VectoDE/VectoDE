@@ -83,12 +83,12 @@ font-family: 'Segoe UI', Roboto, sans-serif;">
 </p>
 <p align="center">
   <!-- 💰 Support & Business -->
-  <a href="https://paypal.me/TimHauke99"><img src="https://img.shields.io/badge/PayPal-0b1321?style=for-the-badge&logo=paypal&logoColor=00457C"/></a>
-  <a href="https://www.patreon.com/vecto"><img src="https://img.shields.io/badge/Patreon-0b1321?style=for-the-badge&logo=patreon&logoColor=FF424D"/></a>
-  <a href="https://buymeacoffee.com/vecto"><img src="https://img.shields.io/badge/Buy_Me_a_Coffee-0b1321?style=for-the-badge&logo=buy-me-a-coffee&logoColor=FFDD00"/></a>
+  <a href="https://paypal.me/TimHauke"><img src="https://img.shields.io/badge/PayPal-0b1321?style=for-the-badge&logo=paypal&logoColor=00457C"/></a>
+  <a href="https://www.patreon.com/VectoDE"><img src="https://img.shields.io/badge/Patreon-0b1321?style=for-the-badge&logo=patreon&logoColor=FF424D"/></a>
+  <a href="https://buymeacoffee.com/vectode"><img src="https://img.shields.io/badge/Buy_Me_a_Coffee-0b1321?style=for-the-badge&logo=buy-me-a-coffee&logoColor=FFDD00"/></a>
   <a href="https://github.com/sponsors/VectoDE"><img src="https://img.shields.io/badge/GitHub_Sponsors-0b1321?style=for-the-badge&logo=githubsponsors&logoColor=EA4AAA"/></a>
-  <a href="https://open.spotify.com/artist/vecto"><img src="https://img.shields.io/badge/Music-0b1321?style=for-the-badge&logo=spotify&logoColor=1DB954"/></a>
-  <a href="https://linktr.ee/vecto"><img src="https://img.shields.io/badge/Linktree-0b1321?style=for-the-badge&logo=linktree&logoColor=43E55E"/></a>
+  <a href="https://open.spotify.com/artist/vectode"><img src="https://img.shields.io/badge/Music-0b1321?style=for-the-badge&logo=spotify&logoColor=1DB954"/></a>
+  <a href="https://linktr.ee/vectode"><img src="https://img.shields.io/badge/Linktree-0b1321?style=for-the-badge&logo=linktree&logoColor=43E55E"/></a>
 </p>
 
 <h2 align="center" style="color:#58A6FF;">🤝 Partners & Sponsors</h2>
