@@ -63,7 +63,7 @@ font-family: 'Segoe UI', Roboto, sans-serif;">
   <a href="https://www.instagram.com/vecto_de"><img src="https://img.shields.io/badge/Instagram-0b1321?style=for-the-badge&logo=instagram&logoColor=E4405F"/></a>
   <a href="https://www.tiktok.com/@vectode"><img src="https://img.shields.io/badge/TikTok-0b1321?style=for-the-badge&logo=tiktok&logoColor=FFFFFF"/></a>
   <a href="https://x.com/vecto_de"><img src="https://img.shields.io/badge/X-0b1321?style=for-the-badge&logo=x&logoColor=FFFFFF"/></a>
-  <a href="https://www.snapchat.com/add/vectode"><img src="https://img.shields.io/badge/Snapchat-0b1321?style=for-the-badge&logo=snapchat&logoColor=FFFC00"/></a>
+  <a href="https://www.snapchat.com/add/vecto_de"><img src="https://img.shields.io/badge/Snapchat-0b1321?style=for-the-badge&logo=snapchat&logoColor=FFFC00"/></a>
   <a href="https://www.linkedin.com/in/tim-hauke-b3b24b2b5"><img src="https://img.shields.io/badge/LinkedIn-0b1321?style=for-the-badge&logo=linkedin&logoColor=0A66C2"/></a>
 </p>
 <p align="center">
