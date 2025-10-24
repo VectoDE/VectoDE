@@ -50,35 +50,6 @@ font-family: 'Segoe UI', Roboto, sans-serif;">
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,vue,react,nextjs,electron,threejs,nodejs,express,php,laravel,java,go,cpp,lua,python,mysql,sqlite,sequelize,prisma,mongodb,redis,docker,nginx,linux,git,github,gitlab,githubactions,vscode,vercel,wordpress,tailwind,bootstrap,figma,photoshop,unreal,heroku,graphql,flutter,cloudflare,aws,bash,powershell,raspberrypi,webpack,vite,yarn,npm,pnpm,jest,pycharm,idea,visualstudio&theme=dark&perline=14" alt="All Tech Icons"/>
 </p>
 
-<!-- ⚙️ Advanced Toolchain (Badges for unsupported icons) -->
-<p align="center">
-  <img src="https://img.shields.io/badge/Stripe-0d1117?style=for-the-badge&logo=stripe&logoColor=635BFF"/>
-  <img src="https://img.shields.io/badge/PayPal-0d1117?style=for-the-badge&logo=paypal&logoColor=00457C"/>
-  <img src="https://img.shields.io/badge/Discord.js-0d1117?style=for-the-badge&logo=discord&logoColor=7289DA"/>
-  <img src="https://img.shields.io/badge/Steamworks_API-0d1117?style=for-the-badge&logo=steam&logoColor=1B2838"/>
-  <img src="https://img.shields.io/badge/JWT-0d1117?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Passport.js-0d1117?style=for-the-badge&logo=passport&logoColor=34E27A"/>
-  <img src="https://img.shields.io/badge/Multer-0d1117?style=for-the-badge&logo=node.js&logoColor=339933"/>
-  <img src="https://img.shields.io/badge/Nodemailer-0d1117?style=for-the-badge&logo=gmail&logoColor=EA4335"/>
-  <img src="https://img.shields.io/badge/Lint-0d1117?style=for-the-badge&logo=eslint&logoColor=4B32C3"/>
-  <img src="https://img.shields.io/badge/PM2-0d1117?style=for-the-badge&logo=pm2&logoColor=2B037A"/>
-  <img src="https://img.shields.io/badge/Puppeteer-0d1117?style=for-the-badge&logo=google-chrome&logoColor=4285F4"/>
-  <img src="https://img.shields.io/badge/Sentry-0d1117?style=for-the-badge&logo=sentry&logoColor=FF3366"/>
-  <img src="https://img.shields.io/badge/Socket.io-0d1117?style=for-the-badge&logo=socket.io&logoColor=FFFFFF"/>
-  <img src="https://img.shields.io/badge/Axios-0d1117?style=for-the-badge&logo=axios&logoColor=5A29E4"/>
-  <img src="https://img.shields.io/badge/Fetch_API-0d1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
-  <img src="https://img.shields.io/badge/CORS-0d1117?style=for-the-badge&logo=security&logoColor=FFFFFF"/>
-  <img src="https://img.shields.io/badge/CI/CD-0d1117?style=for-the-badge&logo=githubactions&logoColor=2088FF"/>
-  <img src="https://img.shields.io/badge/Automation-0d1117?style=for-the-badge&logo=githubactions&logoColor=58A6FF"/>
-  <img src="https://img.shields.io/badge/SysAdmin-0d1117?style=for-the-badge&logo=linux&logoColor=FCC624"/>
-  <img src="https://img.shields.io/badge/Network_Admin-0d1117?style=for-the-badge&logo=cisco&logoColor=1BA0D7"/>
-  <img src="https://img.shields.io/badge/IPv4_Networking-0d1117?style=for-the-badge&logo=internetexplorer&logoColor=0078D7"/>
-  <img src="https://img.shields.io/badge/SEO-0d1117?style=for-the-badge&logo=google&logoColor=4285F4"/>
-  <img src="https://img.shields.io/badge/Digital_Marketing-0d1117?style=for-the-badge&logo=googleads&logoColor=34A853"/>
-  <img src="https://img.shields.io/badge/Markdown-0d1117?style=for-the-badge&logo=markdown&logoColor=FFFFFF"/>
-  <img src="https://img.shields.io/badge/LLM_Studio-0d1117?style=for-the-badge&logo=openai&logoColor=74AA9C"/>
-</p>
-
 <h2 align="center" style="color:#58A6FF;">🌐 Connect with Me</h2>
 <p align="center">
   <!-- 🌍 Websites & Mail -->
