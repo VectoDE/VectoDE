@@ -71,7 +71,7 @@ font-family: 'Segoe UI', Roboto, sans-serif;">
   <a href="https://www.youtube.com/@vectode"><img src="https://img.shields.io/badge/YouTube-0b1321?style=for-the-badge&logo=youtube&logoColor=FF0000"/></a>
   <a href="https://twitch.tv/vectode"><img src="https://img.shields.io/badge/Twitch-0b1321?style=for-the-badge&logo=twitch&logoColor=9146FF"/></a>
   <a href="https://spotify.com/user/vecto"><img src="https://img.shields.io/badge/Spotify-0b1321?style=for-the-badge&logo=spotify&logoColor=1DB954"/></a>
-  <a href="https://soundcloud.com/vecto"><img src="https://img.shields.io/badge/SoundCloud-0b1321?style=for-the-badge&logo=soundcloud&logoColor=FF5500"/></a>
+  <a href="https://on.soundcloud.com/SzVNwEjI6ANTyxL0LE"><img src="https://img.shields.io/badge/SoundCloud-0b1321?style=for-the-badge&logo=soundcloud&logoColor=FF5500"/></a>
   <a href="https://steamcommunity.com/id/vectode"><img src="https://img.shields.io/badge/Steam-0b1321?style=for-the-badge&logo=steam&logoColor=0A6EBD"/></a>
   <a href="https://epicgames.com/id/vecto"><img src="https://img.shields.io/badge/Epic_Games-0b1321?style=for-the-badge&logo=epic-games&logoColor=FFFFFF"/></a>
 </p>
