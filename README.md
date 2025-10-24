@@ -1,113 +1,171 @@
-# Hi 👋, I'm VectoDE
+<!-- 🌌 Animated Dark Background Container -->
+<div align="center" style="background: linear-gradient(180deg, #0a0f1a 0%, #0b1321 50%, #0e1729 100%);
+padding: 40px; border-radius: 16px; box-shadow: 0 0 40px rgba(88,166,255,0.2); color: #E6EDF3;
+font-family: 'Segoe UI', Roboto, sans-serif;">
 
-💻 Founder of UplyTech | Full-Stack Developer | Tech Enthusiast
+<!-- ✨ Animated Header Background -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%" alt="animated header divider"/>
+</p>
 
-![Followers](https://img.shields.io/github/followers/VectoDE?label=Followers&color=blue) ![Stars Received](https://img.shields.io/github/stars/VectoDE?label=Stars&color=red)
+<h1 align="center" style="color:#58A6FF; text-shadow: 0 0 15px #58A6FF;">🌙 Hi, I'm <b>VectoDE</b> 👋</h1>
 
----
+<p align="center" style="color:#A9B8D4; font-size:16px;">
+💻 Founder of <a href="https://www.uplytech.de" style="color:#58A6FF;">UplyTech</a> · Full-Stack Developer · Tech Enthusiast  
+<br/>Turning complexity into simplicity ⚙️
+</p>
 
-## 🚀 About Me
-- 🌱 Working with **MEVN, MERN, MEEN, MENN Stacks**, TypeScript, MySQL, Prisma, TailwindCSS  
-- 🔭 Current Projects: [MitFits Gaming](https://github.com/Mitfits-Gaming), [NodCord](https://github.com/VectoDE/NodCord), [LifeVerse](https://github.com/VectoDE/LifeVerse)  
-- 👯 Open to collaborations in **Web Development, APIs & Discord Bots**  
-- ⚡ Fun Fact: I love turning complex systems into efficient and scalable solutions  
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="60%" alt="divider"/>
+</p>
 
----
+<!-- 🧭 Stats Row -->
+<p align="center">
+  <img src="https://img.shields.io/github/followers/VectoDE?label=Followers&logo=github&style=for-the-badge&color=58A6FF&labelColor=0d1117" alt="Followers"/>
+  <img src="https://img.shields.io/github/stars/VectoDE?label=Stars&logo=github&style=for-the-badge&color=58A6FF&labelColor=0d1117" alt="Stars"/>
+  <img src="https://komarev.com/ghpvc/?username=VectoDE&color=58A6FF&style=for-the-badge&label=Views" alt="Views"/>
+</p>
 
-## 🛠️ Tech Stack
+<p align="center">
+  <a href="https://twitter.com/vecto_de">
+    <img src="https://img.shields.io/twitter/follow/vecto_de?logo=twitter&style=for-the-badge&color=58A6FF&labelColor=0d1117"/>
+  </a>
+</p>
 
-### 🌐 Frontend
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge)
-![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-06B6D4?logo=tailwind-css&logoColor=white&style=for-the-badge)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge)
-![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?logo=vue.js&logoColor=white&style=for-the-badge)
-![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black&style=for-the-badge)
-![Next.js](https://img.shields.io/badge/-Next.js-000000?logo=next.js&logoColor=white&style=for-the-badge)
-![EJS](https://img.shields.io/badge/-EJS-CF4647?logo=EJS&logoColor=white&style=for-the-badge)
-![React Native](https://img.shields.io/badge/-React_Native-61DAFB?logo=react&logoColor=black&style=for-the-badge)
-![Expo](https://img.shields.io/badge/-Expo-000020?logo=expo&logoColor=white&style=for-the-badge)
-![Chart.js](https://img.shields.io/badge/-Chart.js-FF6384?logo=chart.js&logoColor=white&style=for-the-badge)
-![Three.js](https://img.shields.io/badge/-Three.js-000000?logo=three.js&logoColor=white&style=for-the-badge)
+<h2 align="center" style="color:#58A6FF;">🚀 About Me</h2>
+<p align="center" style="color:#A9B8D4;">
+🌱 Working with <b>MEVN, MERN, MEEN, MENN Stacks</b>, TypeScript, MySQL, Prisma, TailwindCSS<br/>
+🔭 Current Projects:
+<a href="https://github.com/VectoDE/NodCord" style="color:#58A6FF;">NodCord</a>,
+<a href="https://github.com/Mitfits-Gaming" style="color:#58A6FF;">MitFits Gaming</a>,
+<a href="https://github.com/VectoDE/LifeVerse" style="color:#58A6FF;">LifeVerse</a><br/>
+👯 Open to collaborations in <b>Web Development, APIs & Discord Bots</b><br/>
+⚡ Fun Fact: I love turning complex systems into efficient and scalable solutions
+</p>
 
-### 🖥️ Backend
-![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white&style=for-the-badge)
-![PHP](https://img.shields.io/badge/-PHP-777BB4?logo=php&logoColor=white&style=for-the-badge)
-![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?logo=laravel&logoColor=white&style=for-the-badge)
-![Java](https://img.shields.io/badge/-Java-007396?logo=java&logoColor=white&style=for-the-badge)
-![Go](https://img.shields.io/badge/-Go-00ADD8?logo=go&logoColor=white&style=for-the-badge)
-![C++](https://img.shields.io/badge/-C++-00599C?logo=c%2B%2B&logoColor=white&style=for-the-badge)
-![C#](https://img.shields.io/badge/-C%23-239120?logo=c%23&logoColor=white&style=for-the-badge)
-![Lua](https://img.shields.io/badge/-Lua-2C2D72?logo=lua&logoColor=white&style=for-the-badge)
-![Unreal Engine](https://img.shields.io/badge/-Unreal_Engine-0E1128?logo=unreal-engine&logoColor=white&style=for-the-badge)
-![Stripe](https://img.shields.io/badge/-Stripe-635BFF?logo=stripe&logoColor=white&style=for-the-badge)
-![Paypal](https://img.shields.io/badge/-PayPal-003087?logo=paypal&logoColor=white&style=for-the-badge)
-![Discord.js](https://img.shields.io/badge/-Discord.js-7289DA?logo=discord&logoColor=white&style=for-the-badge)
+<h2 align="center" style="color:#58A6FF;">🛠️ Tech Stack</h2>
 
-### 🗄️ Databases
-![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white&style=for-the-badge)
-![SQLite](https://img.shields.io/badge/-SQLite-003B57?logo=sqlite&logoColor=white&style=for-the-badge)
-![Sequelize](https://img.shields.io/badge/-Sequelize-52B0E7?logo=sequelize&logoColor=white&style=for-the-badge)
-![Prisma](https://img.shields.io/badge/-Prisma-2D3748?logo=prisma&logoColor=white&style=for-the-badge)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge)
+<!-- 💻 Core Stack Icons -->
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,vue,react,nextjs,electron,threejs,nodejs,express,php,laravel,java,go,cpp,lua,python,mysql,sqlite,sequelize,prisma,mongodb,redis,docker,nginx,linux,git,github,gitlab,githubactions,vscode,vercel,wordpress,tailwind,bootstrap,figma,photoshop,unreal,heroku,graphql,flutter,cloudflare,aws,bash,powershell,raspberrypi,webpack,vite,yarn,npm,pnpm,jest,pycharm,idea,visualstudio&theme=dark&perline=14" alt="All Tech Icons"/>
+</p>
 
-### 🛠️ Tools & Platforms
-![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge)
-![Apache](https://img.shields.io/badge/-Apache-F05123?logo=apache&logoColor=white&style=for-the-badge)
-![Nginx](https://img.shields.io/badge/-Nginx-009639?logo=nginx&logoColor=white&style=for-the-badge)
-![Linux](https://img.shields.io/badge/-Linux-FCC624?logo=linux&logoColor=black&style=for-the-badge)
-![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=for-the-badge)
-![WordPress](https://img.shields.io/badge/-WordPress-21759B?logo=wordpress&logoColor=white&style=for-the-badge)
-![Shell](https://img.shields.io/badge/-Shell-121011?logo=powershell&logoColor=white&style=for-the-badge)
-![Bash](https://img.shields.io/badge/-Bash-4EAA25?logo=gnu-bash&logoColor=white&style=for-the-badge)
-![CI/CD](https://img.shields.io/badge/-CI/CD-0A0A0A?logo=github-actions&logoColor=white&style=for-the-badge)
-![Automation](https://img.shields.io/badge/-Automation-FFAA00?logo=jenkins&logoColor=white&style=for-the-badge)
-![SysAdmin](https://img.shields.io/badge/-SysAdmin-FF6F61?logo=linux&logoColor=white&style=for-the-badge)
-![Network_Admin](https://img.shields.io/badge/-Network_Admin-0078D6?logo=cisco&logoColor=white&style=for-the-badge)
+<!-- ⚙️ Advanced Toolchain (Badges for unsupported icons) -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Stripe-0d1117?style=for-the-badge&logo=stripe&logoColor=635BFF"/>
+  <img src="https://img.shields.io/badge/PayPal-0d1117?style=for-the-badge&logo=paypal&logoColor=00457C"/>
+  <img src="https://img.shields.io/badge/Discord.js-0d1117?style=for-the-badge&logo=discord&logoColor=7289DA"/>
+  <img src="https://img.shields.io/badge/Steamworks_API-0d1117?style=for-the-badge&logo=steam&logoColor=1B2838"/>
+  <img src="https://img.shields.io/badge/JWT-0d1117?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Passport.js-0d1117?style=for-the-badge&logo=passport&logoColor=34E27A"/>
+  <img src="https://img.shields.io/badge/Multer-0d1117?style=for-the-badge&logo=node.js&logoColor=339933"/>
+  <img src="https://img.shields.io/badge/Nodemailer-0d1117?style=for-the-badge&logo=gmail&logoColor=EA4335"/>
+  <img src="https://img.shields.io/badge/Lint-0d1117?style=for-the-badge&logo=eslint&logoColor=4B32C3"/>
+  <img src="https://img.shields.io/badge/PM2-0d1117?style=for-the-badge&logo=pm2&logoColor=2B037A"/>
+  <img src="https://img.shields.io/badge/Puppeteer-0d1117?style=for-the-badge&logo=google-chrome&logoColor=4285F4"/>
+  <img src="https://img.shields.io/badge/Sentry-0d1117?style=for-the-badge&logo=sentry&logoColor=FF3366"/>
+  <img src="https://img.shields.io/badge/Socket.io-0d1117?style=for-the-badge&logo=socket.io&logoColor=FFFFFF"/>
+  <img src="https://img.shields.io/badge/Axios-0d1117?style=for-the-badge&logo=axios&logoColor=5A29E4"/>
+  <img src="https://img.shields.io/badge/Fetch_API-0d1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
+  <img src="https://img.shields.io/badge/CORS-0d1117?style=for-the-badge&logo=security&logoColor=FFFFFF"/>
+  <img src="https://img.shields.io/badge/CI/CD-0d1117?style=for-the-badge&logo=githubactions&logoColor=2088FF"/>
+  <img src="https://img.shields.io/badge/Automation-0d1117?style=for-the-badge&logo=githubactions&logoColor=58A6FF"/>
+  <img src="https://img.shields.io/badge/SysAdmin-0d1117?style=for-the-badge&logo=linux&logoColor=FCC624"/>
+  <img src="https://img.shields.io/badge/Network_Admin-0d1117?style=for-the-badge&logo=cisco&logoColor=1BA0D7"/>
+  <img src="https://img.shields.io/badge/IPv4_Networking-0d1117?style=for-the-badge&logo=internetexplorer&logoColor=0078D7"/>
+  <img src="https://img.shields.io/badge/SEO-0d1117?style=for-the-badge&logo=google&logoColor=4285F4"/>
+  <img src="https://img.shields.io/badge/Digital_Marketing-0d1117?style=for-the-badge&logo=googleads&logoColor=34A853"/>
+  <img src="https://img.shields.io/badge/Markdown-0d1117?style=for-the-badge&logo=markdown&logoColor=FFFFFF"/>
+  <img src="https://img.shields.io/badge/LLM_Studio-0d1117?style=for-the-badge&logo=openai&logoColor=74AA9C"/>
+</p>
 
-### 🌐 Others
-![SEO](https://img.shields.io/badge/-SEO-FF6C37?logo=google&logoColor=white&style=for-the-badge)
-![Digital_Marketing](https://img.shields.io/badge/-Digital_Marketing-FF4500?logo=hubspot&logoColor=white&style=for-the-badge)
-![IPv4_Networking](https://img.shields.io/badge/-IPv4_Networking-1E90FF?logo=cisco&logoColor=white&style=for-the-badge)
-![Markdown](https://img.shields.io/badge/-Markdown-000000?logo=markdown&logoColor=white&style=for-the-badge)
-![Steam](https://img.shields.io/badge/-Steam-000000?logo=steam&logoColor=white&style=for-the-badge)
+<h2 align="center" style="color:#58A6FF;">🌐 Connect with Me</h2>
+<p align="center">
+  <!-- 🌍 Websites & Mail -->
+  <a href="https://www.hauknetz.de"><img src="https://img.shields.io/badge/Portfolio-0b1321?style=for-the-badge&logo=google-chrome&logoColor=58A6FF"/></a>
+  <a href="mailto:timhauke@uplytech.de"><img src="https://img.shields.io/badge/Email-0b1321?style=for-the-badge&logo=gmail&logoColor=EA4335"/></a>
+  <a href="https://discord.gg/DtHPAEHxZk"><img src="https://img.shields.io/badge/Discord_Server-0b1321?style=for-the-badge&logo=discord&logoColor=7289DA"/></a>
+  <a href="https://api.whatsapp.com/send?phone=491726166860"><img src="https://img.shields.io/badge/WhatsApp-0b1321?style=for-the-badge&logo=whatsapp&logoColor=25D366"/></a>
+</p>
+<p align="center">
+  <!-- 💬 Social Media -->
+  <a href="https://www.instagram.com/vecto_de"><img src="https://img.shields.io/badge/Instagram-0b1321?style=for-the-badge&logo=instagram&logoColor=E4405F"/></a>
+  <a href="https://www.tiktok.com/@vectode"><img src="https://img.shields.io/badge/TikTok-0b1321?style=for-the-badge&logo=tiktok&logoColor=FFFFFF"/></a>
+  <a href="https://x.com/vecto_de"><img src="https://img.shields.io/badge/X-0b1321?style=for-the-badge&logo=x&logoColor=FFFFFF"/></a>
+  <a href="https://www.snapchat.com/add/vectode"><img src="https://img.shields.io/badge/Snapchat-0b1321?style=for-the-badge&logo=snapchat&logoColor=FFFC00"/></a>
+  <a href="https://www.linkedin.com/in/tim-hauke-b3b24b2b5"><img src="https://img.shields.io/badge/LinkedIn-0b1321?style=for-the-badge&logo=linkedin&logoColor=0A66C2"/></a>
+</p>
+<p align="center">
+  <!-- 🎮 Creator / Streaming / Music -->
+  <a href="https://www.youtube.com/@vectode"><img src="https://img.shields.io/badge/YouTube-0b1321?style=for-the-badge&logo=youtube&logoColor=FF0000"/></a>
+  <a href="https://twitch.tv/vectode"><img src="https://img.shields.io/badge/Twitch-0b1321?style=for-the-badge&logo=twitch&logoColor=9146FF"/></a>
+  <a href="https://spotify.com/user/vecto"><img src="https://img.shields.io/badge/Spotify-0b1321?style=for-the-badge&logo=spotify&logoColor=1DB954"/></a>
+  <a href="https://soundcloud.com/vecto"><img src="https://img.shields.io/badge/SoundCloud-0b1321?style=for-the-badge&logo=soundcloud&logoColor=FF5500"/></a>
+  <a href="https://steamcommunity.com/id/vectode"><img src="https://img.shields.io/badge/Steam-0b1321?style=for-the-badge&logo=steam&logoColor=0A6EBD"/></a>
+  <a href="https://epicgames.com/id/vecto"><img src="https://img.shields.io/badge/Epic_Games-0b1321?style=for-the-badge&logo=epic-games&logoColor=FFFFFF"/></a>
+</p>
+<p align="center">
+  <!-- 🧠 Developer / Creator Platforms -->
+  <a href="https://github.com/VectoDE"><img src="https://img.shields.io/badge/GitHub-0b1321?style=for-the-badge&logo=github&logoColor=FFFFFF"/></a>
+  <a href="https://gitlab.com/vectode"><img src="https://img.shields.io/badge/GitLab-0b1321?style=for-the-badge&logo=gitlab&logoColor=FC6D26"/></a>
+  <a href="https://dev.to/vectode"><img src="https://img.shields.io/badge/Dev.to-0b1321?style=for-the-badge&logo=dev.to&logoColor=FFFFFF"/></a>
+</p>
+<p align="center">
+  <!-- 💰 Support & Business -->
+  <a href="https://paypal.me/TimHauke99"><img src="https://img.shields.io/badge/PayPal-0b1321?style=for-the-badge&logo=paypal&logoColor=00457C"/></a>
+  <a href="https://www.patreon.com/vecto"><img src="https://img.shields.io/badge/Patreon-0b1321?style=for-the-badge&logo=patreon&logoColor=FF424D"/></a>
+  <a href="https://buymeacoffee.com/vecto"><img src="https://img.shields.io/badge/Buy_Me_a_Coffee-0b1321?style=for-the-badge&logo=buy-me-a-coffee&logoColor=FFDD00"/></a>
+  <a href="https://github.com/sponsors/VectoDE"><img src="https://img.shields.io/badge/GitHub_Sponsors-0b1321?style=for-the-badge&logo=githubsponsors&logoColor=EA4AAA"/></a>
+  <a href="https://open.spotify.com/artist/vecto"><img src="https://img.shields.io/badge/Music-0b1321?style=for-the-badge&logo=spotify&logoColor=1DB954"/></a>
+  <a href="https://linktr.ee/vecto"><img src="https://img.shields.io/badge/Linktree-0b1321?style=for-the-badge&logo=linktree&logoColor=43E55E"/></a>
+</p>
 
----
+<h2 align="center" style="color:#58A6FF;">🤝 Partners & Sponsors</h2>
+<p align="center">
+  <!-- 🟦 UplyTech -->
+  <a href="https://www.uplytech.de" target="_blank">
+    <img src="https://www.uplytech.de/uplytechlogo.webp" alt="UplyTech Logo" height="60" style="border-radius:12px; box-shadow:0 0 15px rgba(88,166,255,0.3); margin:10px;"/>
+  </a>
+  <!-- 🔥 MitFits Gaming -->
+  <a href="https://www.mitfits.de" target="_blank">
+    <img src="https://img.shields.io/badge/MitFits_Gaming-0b1321?style=for-the-badge&logo=gamepad&logoColor=FF4500" alt="MitFits Gaming"/>
+  </a>
+</p>
 
-## 🌐 Connect with Me
-[![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.uplytech.de)
-[![Instagram](https://img.shields.io/badge/Instagram-E1306C?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/vecto_de)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]([https://linkedin.com/in/vectode](https://www.linkedin.com/in/tim-hauke-b3b24b2b5))
-[![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@vectode)
-[![Twitch](https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white)](https://twitch.tv/vectode)
-[![X](https://img.shields.io/badge/X-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://www.x.com/@vecto_de)
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@vectode)
+<h2 align="center" style="color:#58A6FF;">📊 GitHub Overview</h2>
 
----
+<!-- 🧠 Core Stats -->
+<p align="center">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=VectoDE&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0b1321&title_color=58A6FF&icon_color=58A6FF&text_color=A9B8D4&ring_color=58A6FF&line_height=28&rank_icon=github" height="180em" alt="GitHub Stats"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=VectoDE&theme=tokyonight&hide_border=true&background=0b1321&ring=58A6FF&fire=FF6E96&currStreakLabel=58A6FF&sideLabels=58A6FF&sideNums=A9B8D4" height="180em" alt="GitHub Streak"/>
+</p>
 
-## 🤝 Partners & Sponsors
-[![UplyTech](https://img.shields.io/badge/UplyTech-000000?style=for-the-badge&logo=uplytech&logoColor=white)](https://www.uplytech.de) [![MitFits Gaming](https://img.shields.io/badge/MitFits_Gaming-FF4500?style=for-the-badge&logo=gaming&logoColor=white)](https://www.mitfits.de)
+<!-- 🧩 Language Stats -->
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VectoDE&layout=compact&langs_count=15&theme=tokyonight&hide_border=true&bg_color=0b1321&title_color=58A6FF&text_color=A9B8D4" height="180em" alt="Top Languages"/>
+</p>
 
----
+<!-- 🏆 Achievements -->
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=VectoDE&theme=tokyonight&no-frame=true&margin-w=15&margin-h=15&column=4&title=Commit,Followers,Repositories,Stars,PullRequest,Issues,Reviews" alt="GitHub Trophies"/>
+</p>
 
-## 📊 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=VectoDE&show_icons=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=VectoDE&layout=compact&theme=radical)
+<h2 align="center" style="color:#58A6FF;">🔥 Contributions & Activity</h2>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=VectoDE&bg_color=0b1321&color=58A6FF&line=FF6E96&point=FFFFFF&area=true&hide_border=true" alt="GitHub Activity Graph"/>
+</p>
 
-## 📊 Contribution Heatmap
-![GitHub Dark Heatmap](https://ghchart.rshah.org/VectoDE)
+<h2 align="center" style="color:#58A6FF;">✍️ Random Dev Quote</h2>
+<p align="center">
+  <img src="https://readme-jokes.vercel.app/api?theme=tokyonight&hideBorder=true&bgColor=%230b1321&qColor=%2358A6FF&aColor=%23FF6E96" alt="Random Dev Quote"/>
+</p>
 
----
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=58A6FF&height=100&section=footer&text=⭐%20From%20VectoDE%20⭐&fontColor=58A6FF&animation=twinkling"/>
+</p>
+<p align="center" style="color:#58A6FF; font-size:13px; text-shadow: 0 0 8px rgba(88,166,255,0.8);">
+  Made with ❤️ by <a href="https://github.com/VectoDE" style="color:#7DB9FF; text-decoration:none; text-shadow: 0 0 8px rgba(88,166,255,0.9);">VectoDE</a><br/>
+  Founder of <a href="https://www.uplytech.de" style="color:#7DB9FF; text-decoration:none; text-shadow: 0 0 8px rgba(88,166,255,0.9);">UplyTech</a>
+</p>
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
----
-
-## 💰 Support Me
-[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/TimHauke99)
-
----
-
-⭐️ From [VectoDE](https://github.com/VectoDE)
+</div>
