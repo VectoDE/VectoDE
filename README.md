@@ -118,7 +118,7 @@ font-family: 'Segoe UI', Roboto, sans-serif;">
 
 <!-- 🏆 Achievements -->
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=VectoDE&theme=tokyonight&no-frame=true&margin-w=15&margin-h=15" alt="GitHub Trophies"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=VectoDE&theme=tokyonight&no-frame=true&margin-w=15&margin-h=15&column=4&title=Commit,Followers,Repositories,Stars,PullRequest,Issues,Reviews" alt="GitHub Trophies"/>
 </p>
 
 <h2 align="center" style="color:#58A6FF;">🔥 Contributions & Activity</h2>
