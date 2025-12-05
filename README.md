@@ -39,7 +39,6 @@ font-family: 'Segoe UI', Roboto, sans-serif;">
 <p align="center" style="color:#A9B8D4;">
 🌱 Working with <b>MEVN, MERN, MEEN, MENN Stacks</b>, TypeScript, MySQL, Prisma, TailwindCSS<br/>
 🔭 Current Projects:
-<a href="https://github.com/VectoDE/VectoBeat" style="color:#58A6FF;">VectoBeat</a>,
 <a href="https://github.com/VectoDE/NodCord" style="color:#58A6FF;">NodCord</a>,
 <a href="https://github.com/Mitfits-Gaming" style="color:#58A6FF;">MitFits Gaming</a>,
 <a href="https://github.com/VectoDE/LifeVerse" style="color:#58A6FF;">LifeVerse</a><br/>
