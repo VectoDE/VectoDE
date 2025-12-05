@@ -30,6 +30,9 @@ font-family: 'Segoe UI', Roboto, sans-serif;">
   <a href="https://twitter.com/vecto_de">
     <img src="https://img.shields.io/twitter/follow/vecto_de?logo=twitter&style=for-the-badge&color=58A6FF&labelColor=0d1117"/>
   </a>
+  <a href="https://vectobeat.uplytech.de">
+    <img src="https://img.shields.io/badge/VectoBeat-Visit%20Website-0A84FF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit VectoBeat website">
+  </a>
 </p>
 
 <h2 align="center" style="color:#58A6FF;">🚀 About Me</h2>
