@@ -49,7 +49,7 @@ font-family: 'Segoe UI', Roboto, sans-serif;">
 
 <!-- 💻 Core Stack Icons -->
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,vue,react,nextjs,electron,threejs,nodejs,express,php,laravel,java,go,cpp,lua,python,mysql,sqlite,sequelize,prisma,mongodb,redis,docker,nginx,linux,git,github,gitlab,githubactions,vscode,vercel,wordpress,tailwind,bootstrap,figma,photoshop,unreal,heroku,graphql,flutter,cloudflare,aws,bash,powershell,raspberrypi,webpack,vite,yarn,npm,pnpm,jest,pycharm,idea,visualstudio&theme=dark&perline=14" alt="All Tech Icons"/>
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,vue,react,nextjs,electron,threejs,nodejs,express,php,laravel,go,cpp,python,mysql,sqlite,sequelize,prisma,mongodb,redis,docker,nginx,linux,git,github,gitlab,githubactions,vscode,vercel,wordpress,tailwind,bootstrap,figma,photoshop,unreal,heroku,graphql,cloudflare,aws,bash,powershell,raspberrypi,webpack,vite,yarn,npm,pnpm,jest,pycharm,idea,visualstudio&theme=dark&perline=14" alt="All Tech Icons"/>
 </p>
 
 <h2 align="center" style="color:#58A6FF;">🌐 Connect with Me</h2>
