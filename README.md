@@ -40,7 +40,7 @@ font-family: 'Segoe UI', Roboto, sans-serif;">
 🔭 Current Projects:
 <a style="color:#58A6FF;"><strong>GodRazor (Agent system)</strong></a>,
 <a style="color:#58A6FF;"><strong>FlashTrix (Flash Tool)</strong></a>,
-<a style="color:#58A6FF;"><strong>UplyTech Website, API (Exosystem), Software</strong></a><br/>
+<a style="color:#58A6FF;"><strong>UplyTech Website, API (Ecosystem), Software</strong></a><br/>
 👯 Open to collaborations in <b>Web Development, Software, APIs & Discord Bots</b><br/>
 ⚡ Fun Fact: I love turning complex systems into efficient and scalable solutions
 </p>
