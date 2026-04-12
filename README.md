@@ -37,10 +37,6 @@ font-family: 'Segoe UI', Roboto, sans-serif;">
 <h2 align="center" style="color:#58A6FF;">🚀 About Me</h2>
 <p align="center" style="color:#A9B8D4;">
 🌱 Working with <b>MEVN, MERN, MEEN, MENN Stacks</b>, Electron.js, TypeScript, MySQL, Prisma, TailwindCSS<br/>
-🔭 Current Projects:
-<a style="color:#58A6FF;"><strong>GodRazor (Agent system)</strong></a>,
-<a style="color:#58A6FF;"><strong>FlashTrix (Flash Tool)</strong></a>,
-<a style="color:#58A6FF;"><strong>UplyTech Website, API (Ecosystem), Software</strong></a><br/>
 👯 Open to collaborations in <b>Web Development, Software, APIs & Discord Bots</b><br/>
 ⚡ Fun Fact: I love turning complex systems into efficient and scalable solutions
 </p>
