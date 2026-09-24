@@ -11,7 +11,7 @@ font-family: 'Segoe UI', Roboto, sans-serif;">
 <h1 align="center" style="color:#58A6FF; text-shadow: 0 0 15px #58A6FF;">🌙 Hi, I'm <b>VectoDE</b> 👋</h1>
 
 <p align="center" style="color:#A9B8D4; font-size:16px;">
-💻 Founder of <a href="https://www.uplytech.de" style="color:#58A6FF;">UplyTech</a> · Full-Stack Developer · AI Specialist · Automation · Creator of different SaaS
+💻 Founder of <a href="https://www.uplytech.de" style="color:#58A6FF;">UplyTech</a> · Full-Stack Developer · Softwareentwickler · KI & Automatisierung · Creator of different SaaS
 </p>
 
 <p align="center">
