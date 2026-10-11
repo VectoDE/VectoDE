@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62" height="34" viewBox="0 0 62 34" role="img" aria-labelledby="title desc">
+  <title id="title">X</title>
+  <desc id="desc">X</desc>
+  <defs><clipPath id="pill"><rect width="62" height="34" rx="17.0"/></clipPath><linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1F6FEB" stop-opacity="0"/><stop offset=".5" stop-color="#1F6FEB" stop-opacity=".10"/><stop offset="1" stop-color="#1F6FEB" stop-opacity="0"/></linearGradient></defs>
+  <style>.sheen { animation: sweep 7s cubic-bezier(.4,0,.2,1) infinite; }
+    .ping { transform-box: fill-box; transform-origin: center; animation: ping 2.2s ease-out infinite; }
+    @keyframes sweep { 0% { transform: translateX(0); } 22%, 100% { transform: translateX(182px); } }
+    @keyframes ping { 0% { opacity: .55; transform: scale(1); } 100% { opacity: 0; transform: scale(3); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }</style>
+  <rect x=".5" y=".5" width="61" height="33" rx="16.5" fill="#FFFFFF" stroke="#D5DEEA" stroke-opacity="1"/><g transform="translate(12 9.0) scale(.6667)"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" fill="#000000"/></g><path d="M38.1 21.6 41.19 17 38.21 12.41H40.16L42.21 15.78L44.24 12.41H46.15L43.19 16.98L46.25 21.6H44.3L42.16 18.22L39.98 21.6Z" fill="#0C1424"/><g clip-path="url(#pill)"><rect class="sheen" x="-60" y="0" width="44" height="34" fill="url(#shine)" style="animation-delay:1.90s"/></g>
+</svg>
