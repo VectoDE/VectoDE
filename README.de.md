@@ -21,7 +21,7 @@
 
 Ich bin Tim, Full-Stack-Entwickler aus Itzehoe und habe mir das Programmieren selbst beigebracht. Ich führe [UplyTech](https://www.uplytech.de), einen IT-Dienstleister, der Websites, Web-Apps, APIs und individuelle Software für Kunden baut und das Ergebnis danach auch hostet und pflegt.
 
-Mit 11 habe ich Minecraft-Server aufgesetzt, mit 12 über YouTube-Tutorials programmieren gelernt. Daraus wurde 2017 PlayGS, ein Minecraft-Netzwerk mit eigenen Plugins, Shop und TeamSpeak, das ich jahrelang betrieben habe. Bevor das meine Abende gefüllt hat, habe ich beim SSC Phönix Kisdorf Fußball gespielt. Die meisten meiner eigenen Projekte sind aus eigenen Problemen entstanden, etwa ein Musikbot für meinen Discord-Server oder ein Skript, das Apps nach jedem Push neu ausrollt. Die meiste Zeit steckt gerade in **Tellersonne**, meiner Koch-App für iOS und Android, live auf [tellersonne.app](https://tellersonne.app).
+Mit 11 habe ich Minecraft-Server aufgesetzt, mit 12 über YouTube-Tutorials programmieren gelernt. Daraus wurde 2017 [PlayGS](https://www.playgs.de), ein Minecraft-Netzwerk mit eigenen Plugins, Shop und TeamSpeak, das ich bis heute betreibe. Bevor das meine Abende gefüllt hat, habe ich beim SSC Phönix Kisdorf Fußball gespielt. Die meisten meiner eigenen Projekte sind aus eigenen Problemen entstanden, etwa ein Musikbot für meinen Discord-Server oder ein Skript, das Apps nach jedem Push neu ausrollt. Die meiste Zeit steckt gerade in **Tellersonne**, meiner Koch-App für iOS und Android, live auf [tellersonne.app](https://tellersonne.app).
 
 <table>
   <tr><td><b>Standort</b></td><td>Itzehoe, Schleswig-Holstein</td></tr>
@@ -89,7 +89,7 @@ Mit 11 habe ich Minecraft-Server aufgesetzt, mit 12 über YouTube-Tutorials prog
 | --- | --- |
 | **2014** | Erste Minecraft-Server, mit 11 Jahren |
 | **2016** | Mit YouTube-Tutorials angefangen, programmieren zu lernen |
-| **2017** | PlayGS gegründet, ein Minecraft-Netzwerk mit allen Spielmodi auf einem Server, eigenen Plugins, Shop und TeamSpeak |
+| **2017** | [PlayGS](https://www.playgs.de) gegründet, ein Minecraft-Netzwerk mit allen Spielmodi auf einem Server, eigenen Plugins, Shop und TeamSpeak |
 | **2021** | Erste Zertifikate in HTML, Node.js und Website-Erstellung |
 | **2023** | PHP, Laravel, Java, Linux, Netzwerke, Git und GraphQL gelernt. Ehrenamtlicher CMO bei BonToGo (Nov. 2023 bis Juni 2024): Marketingplan und Social Media |
 | **2024** | NodCord veröffentlicht und die UplyTech-API gebaut. Kurse bei LinkedIn Learning und die Zertifizierung Responsive Web Design von freeCodeCamp |
@@ -199,7 +199,7 @@ Mit 11 habe ich Minecraft-Server aufgesetzt, mit 12 über YouTube-Tutorials prog
 | Organisation | Rolle |
 | --- | --- |
 | [UplyTech](https://github.com/UplyTech) | Gründer. IT-Dienstleistungen: Entwicklung, Design, Video und Marketing ([www.uplytech.de](https://www.uplytech.de)) |
-| [PlayGS Netzwerk](https://github.com/PlayGS-Netzwerk) | Gründer seit 2017. Minecraft-Netzwerk mit allen Spielmodi an einem Ort |
+| [PlayGS Netzwerk](https://github.com/PlayGS-Netzwerk) | Gründer seit 2017. Minecraft-Netzwerk mit allen Spielmodi an einem Ort ([playgs.de](https://www.playgs.de)) |
 | [ServerwerkNET](https://github.com/ServerwerkNET) | Entwicklungsorganisation für [serverwerk.net](https://serverwerk.net) |
 | [MitFits Gaming](https://github.com/Mitfits-Gaming) | E-Sport-Club im April 2025 gegründet, im September 2026 übergeben |
 
