@@ -12,7 +12,8 @@ import unicodedata
 from pathlib import Path
 from urllib.parse import quote
 
-from content import BADGES, CERTS, ISSUERS, LI_CERTS, LINKS, PROJECTS, SECTIONS, SOCIAL, SUPPORT, TECH_ROWS, TEXT
+from content import BADGES, CERTS, ISSUERS, LI_CERTS, LINKS, PROJECTS, SECTIONS, SOCIAL, SUPPORT, TEXT
+from tech import BADGE_BG, BADGE_FG, CATEGORIES, CORE, LOGOS
 
 ROOT = Path(__file__).resolve().parents[2]
 CERT_DIR = ROOT / "certificates"
@@ -101,6 +102,46 @@ def cert_tables(lang):
     return "\n".join(out)
 
 
+def shield(name, theme):
+    """Text badge in the colours of the skillicons tiles, with a Simple Icons logo when one exists."""
+    text = quote(name.replace("-", "--").replace("_", "__"), safe="")
+    url = f"https://img.shields.io/badge/{text}-{BADGE_BG[theme]}?style=for-the-badge"
+    slug = LOGOS.get(name)
+    if slug:
+        url += f"&logo={quote(slug)}&logoColor={BADGE_FG[theme]}"
+    return url
+
+
+def evidence(ev, tx):
+    if ev is None:
+        return ""
+    if ev == "private":
+        return f" (*{tx['private_label']}*)"
+    repo = ev if "/" in ev else f"VectoDE/{ev}"
+    return f" ([{repo.split('/')[1]}](https://github.com/{repo}))"
+
+
+def stack(lang):
+    tx = TEXT[lang]
+    count = sum(len(items) for _, _, items in CATEGORIES)
+    out = [tx["stack_intro"], "", f"**{tx['core_label']}:** " + " · ".join(CORE), ""]
+    rows = []
+    for _key, label, items in CATEGORIES:
+        with_icon = [(n, i) for n, i, _ in items if i]
+        icons = ""
+        if with_icon:
+            base = f"https://skillicons.dev/icons?i={','.join(i for _, i in with_icon)}&perline=13&theme="
+            icons = picture(base + "dark", base + "light", ", ".join(n for n, _ in with_icon), None)
+        badges = " ".join(picture(shield(n, "dark"), shield(n, "light"), n, None) for n, i, _ in items if not i)
+        rows.append((f"<b>{label[lang]}</b>", "<br>".join(x for x in (icons, badges) if x)))
+    out += [html_table(rows), ""]
+    out += [f"<details>\n<summary><b>{tx['stack_details'].format(count=count)}</b></summary>\n", tx["stack_legend"], ""]
+    for _key, label, items in CATEGORIES:
+        out.append(f"- **{label[lang]}**: " + ", ".join(n + evidence(ev, tx) for n, _i, ev in items))
+    out += ["\n</details>", "", tx["ideas"], ""]
+    return out
+
+
 def html_table(rows):
     lines = ["<table>"] + ["  <tr>" + "".join(f"<td>{c}</td>" for c in cells) + "</tr>" for cells in rows] + ["</table>"]
     return "\n".join(lines)
@@ -117,6 +158,9 @@ def build(lang):
         parts += [paragraph, ""]
     parts += [html_table([(f"<b>{k}</b>", md_inline(v)) for k, v in tx["facts"]]), ""]
 
+    parts += [section("hire", lang), "", tx["hire_intro"], ""]
+    parts += [html_table([(f"<b>{k}</b>", md_inline(v.format(count=len(CERTS)))) for k, v in tx["hire"]]), ""]
+
     parts += [section("services", lang), ""] + [f"- {s}" for s in tx["services"]] + [""]
 
     parts += [section("projects", lang), ""]
@@ -124,23 +168,20 @@ def build(lang):
         cells = [asset(f"card-{key}", f"{name}: {text[lang]}", lang, "49%", url)
                  for key, name, url, _icon, _status, text, _stack in PROJECTS[i:i + 2]]
         parts.append('<p align="center">\n  ' + "\n  ".join(cells) + "\n</p>")
+    parts += [f"**{tx['projects_short']}**", ""]
+    parts += [f"- [{name}]({url}): {text[lang]}" for _k, name, url, _i, _s, text, _st in PROJECTS] + [""]
     parts += ['<p align="center"><sub>' + tx["project_links"] + ": " +
               ", ".join(f'{n} <a href="{u}">{u.split("//")[1]}</a>' for n, u in LIVE_SITES) + "</sub></p>", ""]
     h = tx["smaller_head"]
     parts += [f"<details>\n<summary><b>{tx['smaller']}</b></summary>\n", f"| {h[0]} | {h[1]} | {h[2]} |", "| --- | --- | --- |"]
-    parts += [f"| [{p}](https://github.com/VectoDE/{p}) | {d} | {lang_} |" for p, d, lang_ in tx["smaller_rows"]]
+    parts += [f"| [{p}](https://github.com/VectoDE/{p}) | {d} | {lang_ or '-'} |" for p, d, lang_ in tx["smaller_rows"]]
     parts += ["\n</details>", ""]
 
     parts += [section("timeline", lang), "", asset("timeline", tx["timeline_text"], lang), ""]
     parts += [f"<details>\n<summary>{tx['timeline_text']}</summary>\n", "| | |", "| --- | --- |"]
     parts += [f"| **{y}** | {d} |" for y, d in tx["timeline_rows"]] + ["\n</details>", ""]
 
-    parts += [section("stack", lang), ""]
-    rows = []
-    for (icons, alt), label in zip(TECH_ROWS, tx["stack_rows"]):
-        base = f"https://skillicons.dev/icons?i={icons}&theme="
-        rows.append((f"<b>{label}</b>", picture(base + "dark", base + "light", alt, None)))
-    parts += [html_table(rows), ""]
+    parts += [section("stack", lang), ""] + stack(lang)
 
     issuers = " ".join(badge(f"issuer-{key}", f"{name}: {sum(1 for c in CERTS if c[2] == name)}")
                        for key, name, _glyph, _color in ISSUERS)

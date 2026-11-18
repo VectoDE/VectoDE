@@ -16,6 +16,8 @@ from content import AWARDS, CERTS, CODING_SINCE, LANGS, PROJECTS, STATS
 from svgkit import DISPLAY, SANS, SANS_BOLD, THEMES, measure, num, svg_doc, txt, write
 
 USER = "VectoDE"
+# Organisations I founded. Their public repositories count towards the language bar.
+ORGS = ["UplyTech", "PlayGS-Netzwerk"]
 TOKEN = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
 
 PALETTES = {
@@ -37,21 +39,40 @@ def api(url, body=None):
 def collect():
     user = api(f"https://api.github.com/users/{USER}")
     repos = api(f"https://api.github.com/users/{USER}/repos?per_page=100&type=owner")
-    own = [r for r in repos if not r["fork"]]
+    for org in ORGS:
+        repos += api(f"https://api.github.com/orgs/{org}/repos?per_page=100&type=public")
+    own = [r for r in repos if not r["fork"] and not r.get("archived")]
     langs = Counter()
     for r in own:
         langs.update(api(r["languages_url"]))
-    total, weeks, days = None, [], []
+    total, commits, weeks, days = None, None, [], []
     if TOKEN:
-        q = """query($login:String!){ user(login:$login){ contributionsCollection{ contributionCalendar{
+        q = """query($login:String!){ user(login:$login){ contributionsCollection{ totalCommitContributions contributionCalendar{
                totalContributions weeks{ contributionDays{ contributionCount } } } } } }"""
         cal = api("https://api.github.com/graphql", {"query": q, "variables": {"login": USER}})
-        cal = cal["data"]["user"]["contributionsCollection"]["contributionCalendar"]
+        coll = cal["data"]["user"]["contributionsCollection"]
+        commits = coll["totalCommitContributions"]
+        cal = coll["contributionCalendar"]
         total = cal["totalContributions"]
         weeks = [sum(d["contributionCount"] for d in w["contributionDays"]) for w in cal["weeks"]]
         days = [d["contributionCount"] for w in cal["weeks"] for d in w["contributionDays"]]
-    return dict(repos=user["public_repos"], stars=sum(r["stargazers_count"] for r in own),
-                followers=user["followers"], total=total, weeks=weeks, days=days, langs=langs.most_common())
+    mine = [r for r in own if r["owner"]["login"] == USER]
+    return dict(repos=user["public_repos"], stars=sum(r["stargazers_count"] for r in mine),
+                followers=user["followers"], total=total, commits=commits, weeks=weeks, days=days,
+                streak=current_streak(days), langs=langs.most_common())
+
+
+def current_streak(days):
+    """Days in a row with at least one contribution, ending today (or yesterday, if today is still empty)."""
+    days = list(days)
+    if days and not days[-1]:
+        days.pop()
+    run = 0
+    for count in reversed(days):
+        if not count:
+            break
+        run += 1
+    return run
 
 
 def smooth(points):
@@ -79,15 +100,17 @@ def card(t, palette, s, lang):
     o.append(f'<circle class="live" cx="{num(R - sw + 14)}" cy="37" r="3.5" fill="{t["green"]}"/><circle cx="{num(R - sw + 14)}" cy="37" r="3.5" fill="{t["green"]}"/>')
     o.append(txt(SANS, stamp, 12.5, R - sw + 25, 41.5, t["muted"]))
 
-    metrics = [(fmt_int(s["total"], lang) if s["total"] is not None else "-", c["contributions"]),
+    dash = lambda v: fmt_int(v, lang) if v is not None else "-"
+    metrics = [(dash(s["total"]), c["contributions"]), (dash(s["commits"]), c["commits"]),
+               (dash(s["streak"] if s["days"] else None), c["streak"]),
                (str(s["repos"]), c["repos"]), (str(s["stars"]), c["stars"]), (str(s["followers"]), c["followers"])]
-    col = (R - L) / 4
+    col = (R - L) / len(metrics)
     for i, (value, label) in enumerate(metrics):
         x = L + i * col
         o.append(f'<g class="rise" style="animation-delay:{.1 + i * .12:.2f}s">')
         if i:
             o.append(f'<path d="M{num(x - 24)} 78V146" stroke="{t["line"]}"/>')
-        o.append(txt(DISPLAY, value, 50, x, 124, t["text"], tracking=-0.4))
+        o.append(txt(DISPLAY, value, 46, x, 124, t["text"], tracking=-0.4))
         o.append(txt(SANS, label, 14, x, 150, t["muted"]))
         o.append("</g>")
 
@@ -149,7 +172,8 @@ def card(t, palette, s, lang):
             f'<clipPath id="bar"><rect x="{L}" y="346" width="{R - L}" height="12" rx="6"/></clipPath>'
             f'<linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{t["blue"]}" stop-opacity=".28"/>'
             f'<stop offset="1" stop-color="{t["blue"]}" stop-opacity="0"/></linearGradient>')
-    desc = f"{metrics[0][0]} {c['contributions']}, {s['repos']} {c['repos']}, {s['stars']} {c['stars']}, {s['followers']} {c['followers']}."
+    desc = ", ".join(f"{v} {label}" for v, label in metrics) + ". " + c["languages"] + ": " + ", ".join(
+        f"{name} {b / total_bytes * 100:.1f}%" for name, b in top_langs) + "."
     return svg_doc(W, H, c["title"], desc, f'<g transform="translate({M} {M})">{"".join(o)}</g>', style, defs)
 
 
