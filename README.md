@@ -10,7 +10,7 @@
   <a href="mailto:timhauke99@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/mail-private-en-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/badges/mail-private-en-light.svg"><img alt="Personal: timhauke99@gmail.com" src="assets/badges/mail-private-en-light.svg"></picture></a>
 </p>
 <p align="center">
-  <a href="mailto:contact@uplytech.de"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/open-en-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/badges/open-en-light.svg"><img alt="Available for projects" src="assets/badges/open-en-light.svg"></picture></a>
+  <a href="mailto:contact@uplytech.de"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/open-en-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/badges/open-en-light.svg"><img alt="Open for projects and jobs" src="assets/badges/open-en-light.svg"></picture></a>
   <a href="https://www.uplytech.de"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/founder-en-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/badges/founder-en-light.svg"><img alt="Founder: UplyTech" src="assets/badges/founder-en-light.svg"></picture></a>
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/location-en-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/badges/location-en-light.svg"><img alt="Based in: Itzehoe, DE" src="assets/badges/location-en-light.svg"></picture><br>
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/since-en-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/badges/since-en-light.svg"><img alt="Coding since: 2017" src="assets/badges/since-en-light.svg"></picture>
@@ -21,30 +21,30 @@
 
 I'm Tim, a self-taught full-stack developer from Itzehoe in northern Germany. I founded [UplyTech](https://www.uplytech.de), a community and project for development, design, video and marketing, where I build websites, web apps, APIs and custom software and then host and maintain what I ship.
 
-My first contact with computers and tech came in 2014, and my first Minecraft projects followed in 2016. In 2017 I started coding and taught myself from YouTube tutorials. That led to PlayGS, a Minecraft network with its own plugins, a shop and a TeamSpeak that I ran from 2017 to 2019. Before all of this took over my evenings I played football for SSC Phönix Kisdorf. Most of my own projects started as fixes for my own problems, like a music bot for my Discord server or a script that redeploys apps when I push. Most of my time right now goes into **Tellersonne**, my cooking app for iOS and Android, live at [tellersonne.app](https://tellersonne.app).
+My first contact with computers and tech came in 2014, and my first Minecraft projects followed in 2016. In 2017 I started coding and taught myself from YouTube tutorials. That led to PlayGS, a Minecraft network with its own plugins, a shop and a TeamSpeak that I ran from 2017 to 2019. I played football for SSC Phönix Kisdorf until programming took over my evenings. Most of my own projects started as fixes for my own problems, like a music bot for my Discord server or a script that redeploys apps when I push. Most of my time right now goes into **Tellersonne**, my cooking app for iOS and Android, live at [tellersonne.app](https://tellersonne.app).
 
 <table>
   <tr><td><b>Based in</b></td><td>Itzehoe, Schleswig-Holstein, Germany</td></tr>
-  <tr><td><b>Company</b></td><td>Founder of <a href="https://www.uplytech.de">UplyTech</a>, a community and project, not yet a registered business</td></tr>
+  <tr><td><b>Project</b></td><td>Founder of <a href="https://www.uplytech.de">UplyTech</a>, a community and project, not yet a registered business</td></tr>
   <tr><td><b>Working on</b></td><td><a href="https://tellersonne.app">Tellersonne</a>, recipes without ads or third-party analytics</td></tr>
   <tr><td><b>Day-to-day stack</b></td><td>TypeScript, Next.js, Node.js, Python, Go, Prisma, Docker, Cloudflare</td></tr>
   <tr><td><b>Stacks</b></td><td>MEVN, MERN, MEEN and MENN, plus Electron, TypeScript, MySQL, Prisma and Tailwind CSS</td></tr>
   <tr><td><b>Languages</b></td><td>German (native), English</td></tr>
   <tr><td><b>Open to</b></td><td>Client projects, freelance work and a permanent position, remote, on site or hybrid. Web apps, software, APIs and Discord bots</td></tr>
-  <tr><td><b>Fun fact</b></td><td>I like taking a system that grew messy and making it fast and easy to scale</td></tr>
+  <tr><td><b>Fun fact</b></td><td>I like taking a system that grew messy and making it fast and scalable</td></tr>
   <tr><td><b>Contact</b></td><td>UplyTech: <a href="mailto:contact@uplytech.de">contact@uplytech.de</a> or <a href="mailto:timhauke@uplytech.de">timhauke@uplytech.de</a>. Personal, not UplyTech: <a href="mailto:timhauke99@gmail.com">timhauke99@gmail.com</a></td></tr>
 </table>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-hire-en-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/h-hire-en-light.svg"><img alt="For recruiters and clients" src="assets/h-hire-en-light.svg" width="100%"></picture>
 
-Looking to hire me, or to start a project together? These are the facts recruiters and clients ask for first.
+Looking to hire me, or to start a project together? Here is what you need to decide whether we fit.
 
 <table>
   <tr><td><b>Roles</b></td><td>Full-stack and backend development, DevOps and server operations. On web projects I also plan and lead the technical side</td></tr>
-  <tr><td><b>Day to day</b></td><td>Development, deployment and operations for client projects, many of them under the <a href="https://www.uplytech.de">UplyTech</a> name, from the interface to the server</td></tr>
+  <tr><td><b>Day to day</b></td><td>Development, deployment and operations for client projects, from the interface to the server</td></tr>
   <tr><td><b>Main stack</b></td><td>TypeScript with Next.js, React and Node.js · Python with FastAPI and discord.py · Go for command-line tools · PostgreSQL and Prisma · Docker, Linux and Cloudflare · CI with CodeQL, OpenSSF Scorecard and signed releases</td></tr>
   <tr><td><b>Typical work</b></td><td>Company websites and web apps, admin dashboards, REST APIs, Discord bots with a web dashboard, Linux servers with monitoring</td></tr>
-  <tr><td><b>Experience</b></td><td>Coding since 2017, self-taught. Live services since 2017, from the PlayGS Minecraft network to Tellersonne today</td></tr>
+  <tr><td><b>Experience</b></td><td>Coding since 2017, self-taught. I have run live services for years, from the PlayGS Minecraft network (2017 to 2019) to Tellersonne today</td></tr>
   <tr><td><b>Proof</b></td><td>39 course certificates from Programming Hub, LinkedIn Learning and freeCodeCamp, 38 of them with a PDF, public code in the repositories below, and <a href="https://www.bestpractices.dev/projects/16102">VectolynCloud</a> with the OpenSSF Best Practices badge (passing)</td></tr>
   <tr><td><b>Availability</b></td><td>Open to client projects and freelance work as well as a permanent position. Remote, on site or hybrid</td></tr>
   <tr><td><b>Location and languages</b></td><td>Itzehoe, Germany · German (native), English</td></tr>

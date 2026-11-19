@@ -24,28 +24,28 @@ LINKS = {
 
 HERO = {
     "en": dict(
-        roles=["Founder of UplyTech", "Full-stack developer since 2017", "Web apps, APIs and Discord bots",
+        roles=["Founder of UplyTech", "Coding since 2017: full-stack developer", "Web apps, APIs and Discord bots",
                "AI, automation and SaaS"],
         intro=["I plan, build and run software for companies,", "from the first sketch to the server it runs on."],
-        available="Available for projects",
+        available="Open for projects and jobs",
         panel_tabs=("Design", "Inspect"),
         layer="Frame",
         profile_title="Profile",
-        profile=[("Role", "Founder & developer"), ("Company", "UplyTech"), ("Based in", "Itzehoe, Germany"),
+        profile=[("Role", "Founder & developer"), ("Project", "UplyTech"), ("Based in", "Itzehoe, Germany"),
                  ("Coding since", "2017"), ("Languages", "German, English")],
         stack_title="Stack",
         status_title="Currently building",
         zoom="Fit",
     ),
     "de": dict(
-        roles=["Gründer von UplyTech", "Full-Stack-Entwickler seit 2017", "Web-Apps, APIs und Discord-Bots",
+        roles=["Gründer von UplyTech", "Programmiert seit 2017: Full-Stack-Entwickler", "Web-Apps, APIs und Discord-Bots",
                "KI, Automatisierung und SaaS"],
         intro=["Ich plane, entwickle und betreibe Software für", "Unternehmen, vom ersten Entwurf bis zum Server."],
-        available="Offen für Projekte",
+        available="Offen für Projekte und Festanstellung",
         panel_tabs=("Design", "Prüfen"),
         layer="Rahmen",
         profile_title="Profil",
-        profile=[("Rolle", "Gründer & Entwickler"), ("Firma", "UplyTech"), ("Standort", "Itzehoe"),
+        profile=[("Rolle", "Gründer & Entwickler"), ("Projekt", "UplyTech"), ("Standort", "Itzehoe"),
                  ("Programmiert seit", "2017"), ("Sprachen", "Deutsch, Englisch")],
         stack_title="Stack",
         status_title="Aktuelles Projekt",
@@ -135,9 +135,9 @@ TIMELINE = {
 TODAY = {"en": "Today", "de": "Heute"}
 
 FOOTER = {
-    "en": dict(head="Have a project in mind?", sub="Write in German or English. UplyTech requests go to the company addresses.",
+    "en": dict(head="Have a project in mind?", sub="Write in German or English. Requests about UplyTech go to the UplyTech addresses.",
                business="UplyTech", private="Personal"),
-    "de": dict(head="Du hast ein Projekt im Kopf?", sub="Schreib auf Deutsch oder Englisch. Anfragen zu UplyTech bitte an die Firmenadressen.",
+    "de": dict(head="Du hast ein Projekt im Kopf?", sub="Schreib auf Deutsch oder Englisch. Anfragen zu UplyTech bitte an die UplyTech-Adressen.",
                business="UplyTech", private="Privat"),
 }
 
@@ -179,18 +179,18 @@ TEXT = {
             "a community and project for development, design, video and marketing, where I build websites, web apps, APIs and custom software and then host and maintain what I ship.",
             "My first contact with computers and tech came in 2014, and my first Minecraft projects followed in 2016. In 2017 I started coding and taught myself from YouTube tutorials. That led to "
             "PlayGS, a Minecraft network with its own plugins, a shop and a TeamSpeak that I ran from 2017 to 2019. "
-            "Before all of this took over my evenings I played football for SSC Phönix Kisdorf. Most of my own projects started as fixes "
+            "I played football for SSC Phönix Kisdorf until programming took over my evenings. Most of my own projects started as fixes "
             "for my own problems, like a music bot for my Discord server or a script that redeploys apps when I push. "
             "Most of my time right now goes into **Tellersonne**, my cooking app for iOS and Android, live at [tellersonne.app](https://tellersonne.app).",
         ],
         facts=[("Based in", "Itzehoe, Schleswig-Holstein, Germany"),
-               ("Company", "Founder of [UplyTech](https://www.uplytech.de), a community and project, not yet a registered business"),
+               ("Project", "Founder of [UplyTech](https://www.uplytech.de), a community and project, not yet a registered business"),
                ("Working on", "[Tellersonne](https://tellersonne.app), recipes without ads or third-party analytics"),
                ("Day-to-day stack", "TypeScript, Next.js, Node.js, Python, Go, Prisma, Docker, Cloudflare"),
                ("Stacks", "MEVN, MERN, MEEN and MENN, plus Electron, TypeScript, MySQL, Prisma and Tailwind CSS"),
                ("Languages", "German (native), English"),
                ("Open to", "Client projects, freelance work and a permanent position, remote, on site or hybrid. Web apps, software, APIs and Discord bots"),
-               ("Fun fact", "I like taking a system that grew messy and making it fast and easy to scale"),
+               ("Fun fact", "I like taking a system that grew messy and making it fast and scalable"),
                ("Contact", "UplyTech: [contact@uplytech.de](mailto:contact@uplytech.de) or [timhauke@uplytech.de](mailto:timhauke@uplytech.de). "
                            "Personal, not UplyTech: [timhauke99@gmail.com](mailto:timhauke99@gmail.com)")],
         services=[
@@ -203,14 +203,14 @@ TEXT = {
         ],
         project_links="Live sites",
         projects_short="Every project in one sentence",
-        hire_intro="Looking to hire me, or to start a project together? These are the facts recruiters and clients ask for first.",
+        hire_intro="Looking to hire me, or to start a project together? Here is what you need to decide whether we fit.",
         hire=[("Roles", "Full-stack and backend development, DevOps and server operations. On web projects I also plan and lead the technical side"),
-              ("Day to day", "Development, deployment and operations for client projects, many of them under the [UplyTech](https://www.uplytech.de) name, from the interface to the server"),
+              ("Day to day", "Development, deployment and operations for client projects, from the interface to the server"),
               ("Main stack", "TypeScript with Next.js, React and Node.js · Python with FastAPI and discord.py · Go for command-line tools · "
                                "PostgreSQL and Prisma · Docker, Linux and Cloudflare · CI with CodeQL, OpenSSF Scorecard and signed releases"),
               ("Typical work", "Company websites and web apps, admin dashboards, REST APIs, Discord bots with a web dashboard, "
                                "Linux servers with monitoring"),
-              ("Experience", "Coding since 2017, self-taught. Live services since 2017, from the PlayGS Minecraft network to Tellersonne today"),
+              ("Experience", "Coding since 2017, self-taught. I have run live services for years, from the PlayGS Minecraft network (2017 to 2019) to Tellersonne today"),
               ("Proof", "{count} course certificates from Programming Hub, LinkedIn Learning and freeCodeCamp, {pdfs} of them with a PDF, public code in the repositories below, and "
                         "[VectolynCloud](https://www.bestpractices.dev/projects/16102) with the OpenSSF Best Practices badge (passing)"),
               ("Availability", "Open to client projects and freelance work as well as a permanent position. Remote, on site or hybrid"),
@@ -273,12 +273,12 @@ TEXT = {
             "eine Community und ein Projekt für Entwicklung, Design, Video und Marketing, in dem ich Websites, Web-Apps, APIs und individuelle Software baue und das Ergebnis danach auch hoste und pflege.",
             "2014 hatte ich den ersten Kontakt mit Computern und Technik, 2016 folgten meine ersten Projekte rund um Minecraft. 2017 habe ich mit dem Programmieren angefangen und es mir mit YouTube-Tutorials beigebracht. Daraus wurde "
             "PlayGS, ein Minecraft-Netzwerk mit eigenen Plugins, Shop und TeamSpeak, das ich von 2017 bis 2019 betrieben habe. "
-            "Bevor das meine Abende gefüllt hat, habe ich beim SSC Phönix Kisdorf Fußball gespielt. Die meisten meiner eigenen Projekte "
+            "Ich habe beim SSC Phönix Kisdorf Fußball gespielt, bis das Programmieren meine Abende gefüllt hat. Die meisten meiner eigenen Projekte "
             "sind aus eigenen Problemen entstanden, etwa ein Musikbot für meinen Discord-Server oder ein Skript, das Apps nach jedem Push neu ausrollt. "
             "Die meiste Zeit steckt gerade in **Tellersonne**, meiner Koch-App für iOS und Android, live auf [tellersonne.app](https://tellersonne.app).",
         ],
         facts=[("Standort", "Itzehoe, Schleswig-Holstein"),
-               ("Firma", "Gründer von [UplyTech](https://www.uplytech.de), einer Community und einem Projekt, noch kein Gewerbe"),
+               ("Projekt", "Gründer von [UplyTech](https://www.uplytech.de), einer Community und einem Projekt, noch kein Gewerbe"),
                ("Aktuelles Projekt", "[Tellersonne](https://tellersonne.app), Rezepte ohne Werbung und Drittanbieter-Analyse"),
                ("Täglicher Stack", "TypeScript, Next.js, Node.js, Python, Go, Prisma, Docker, Cloudflare"),
                ("Stacks", "MEVN, MERN, MEEN und MENN, dazu Electron, TypeScript, MySQL, Prisma und Tailwind CSS"),
@@ -297,15 +297,15 @@ TEXT = {
         ],
         project_links="Live-Seiten",
         projects_short="Alle Projekte in einem Satz",
-        hire_intro="Du willst mich einstellen oder ein Projekt gemeinsam starten? Hier stehen die Angaben, nach denen Recruiter und Kunden zuerst fragen.",
+        hire_intro="Du willst mich einstellen oder ein Projekt gemeinsam starten? Hier steht, was du für die Entscheidung brauchst, ob wir zusammenpassen.",
         hire=[("Rollen", "Full-Stack- und Backend-Entwicklung, DevOps und Serverbetrieb. Bei Webprojekten übernehme ich auch die technische Planung und Leitung"),
-              ("Im Alltag", "Entwicklung, Auslieferung und Betrieb für Kundenprojekte, viele davon unter dem Namen [UplyTech](https://www.uplytech.de), von der Oberfläche bis zum Server"),
+              ("Im Alltag", "Entwicklung, Auslieferung und Betrieb für Kundenprojekte, von der Oberfläche bis zum Server"),
               ("Hauptstack", "TypeScript mit Next.js, React und Node.js · Python mit FastAPI und discord.py · Go für Kommandozeilen-Tools · "
                                   "PostgreSQL und Prisma · Docker, Linux und Cloudflare · CI mit CodeQL, OpenSSF Scorecard und signierten Releases"),
               ("Typische Aufträge", "Firmenwebsites und Web-Apps, Admin-Dashboards, REST-APIs, Discord-Bots mit Web-Dashboard, "
                                     "Linux-Server mit Monitoring"),
-              ("Erfahrung", "Ich programmiere seit 2017 und habe es mir selbst beigebracht. Seit 2017 laufen Dienste von mir im Dauerbetrieb, "
-                            "vom Minecraft-Netzwerk PlayGS bis zu Tellersonne heute"),
+              ("Erfahrung", "Ich programmiere seit 2017 und habe es mir selbst beigebracht. Ich betreibe seit Jahren eigene Dienste, "
+                            "vom Minecraft-Netzwerk PlayGS (2017 bis 2019) bis zu Tellersonne heute"),
               ("Nachweise", "{count} Kurszertifikate von Programming Hub, LinkedIn Learning und freeCodeCamp, {pdfs} davon mit PDF, öffentlicher Code in den Repositories weiter unten und "
                             "[VectolynCloud](https://www.bestpractices.dev/projects/16102) mit dem OpenSSF-Best-Practices-Badge (Passing)"),
               ("Verfügbarkeit", "Offen für Projektaufträge und Freelance sowie für eine Festanstellung. Remote, vor Ort oder hybrid"),
@@ -374,7 +374,7 @@ BADGES = {
         ("mail-private", "gmail", {"en": "Personal", "de": "Privat"}, LINKS["email_private"], "mailto:" + LINKS["email_private"]),
     ],
     "facts": [
-        ("open", "live", None, {"en": "Available for projects", "de": "Offen für Projekte"}, "mailto:" + LINKS["email_company"]),
+        ("open", "live", None, {"en": "Open for projects and jobs", "de": "Offen für Projekte und Festanstellung"}, "mailto:" + LINKS["email_company"]),
         ("founder", "building", {"en": "Founder", "de": "Gründer"}, "UplyTech", LINKS["company"]),
         ("location", "pin", {"en": "Based in", "de": "Standort"}, "Itzehoe, DE", None),
         ("since", "code", {"en": "Coding since", "de": "Programmiert seit"}, "2017", None),

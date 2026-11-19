@@ -10,7 +10,7 @@
   <a href="mailto:timhauke99@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/mail-private-de-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/badges/mail-private-de-light.svg"><img alt="Privat: timhauke99@gmail.com" src="assets/badges/mail-private-de-light.svg"></picture></a>
 </p>
 <p align="center">
-  <a href="mailto:contact@uplytech.de"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/open-de-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/badges/open-de-light.svg"><img alt="Offen für Projekte" src="assets/badges/open-de-light.svg"></picture></a>
+  <a href="mailto:contact@uplytech.de"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/open-de-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/badges/open-de-light.svg"><img alt="Offen für Projekte und Festanstellung" src="assets/badges/open-de-light.svg"></picture></a>
   <a href="https://www.uplytech.de"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/founder-de-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/badges/founder-de-light.svg"><img alt="Gründer: UplyTech" src="assets/badges/founder-de-light.svg"></picture></a>
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/location-de-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/badges/location-de-light.svg"><img alt="Standort: Itzehoe, DE" src="assets/badges/location-de-light.svg"></picture><br>
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/since-de-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/badges/since-de-light.svg"><img alt="Programmiert seit: 2017" src="assets/badges/since-de-light.svg"></picture>
@@ -21,11 +21,11 @@
 
 Ich bin Tim, Full-Stack-Entwickler aus Itzehoe und habe mir das Programmieren selbst beigebracht. Ich habe [UplyTech](https://www.uplytech.de) gegründet, eine Community und ein Projekt für Entwicklung, Design, Video und Marketing, in dem ich Websites, Web-Apps, APIs und individuelle Software baue und das Ergebnis danach auch hoste und pflege.
 
-2014 hatte ich den ersten Kontakt mit Computern und Technik, 2016 folgten meine ersten Projekte rund um Minecraft. 2017 habe ich mit dem Programmieren angefangen und es mir mit YouTube-Tutorials beigebracht. Daraus wurde PlayGS, ein Minecraft-Netzwerk mit eigenen Plugins, Shop und TeamSpeak, das ich von 2017 bis 2019 betrieben habe. Bevor das meine Abende gefüllt hat, habe ich beim SSC Phönix Kisdorf Fußball gespielt. Die meisten meiner eigenen Projekte sind aus eigenen Problemen entstanden, etwa ein Musikbot für meinen Discord-Server oder ein Skript, das Apps nach jedem Push neu ausrollt. Die meiste Zeit steckt gerade in **Tellersonne**, meiner Koch-App für iOS und Android, live auf [tellersonne.app](https://tellersonne.app).
+2014 hatte ich den ersten Kontakt mit Computern und Technik, 2016 folgten meine ersten Projekte rund um Minecraft. 2017 habe ich mit dem Programmieren angefangen und es mir mit YouTube-Tutorials beigebracht. Daraus wurde PlayGS, ein Minecraft-Netzwerk mit eigenen Plugins, Shop und TeamSpeak, das ich von 2017 bis 2019 betrieben habe. Ich habe beim SSC Phönix Kisdorf Fußball gespielt, bis das Programmieren meine Abende gefüllt hat. Die meisten meiner eigenen Projekte sind aus eigenen Problemen entstanden, etwa ein Musikbot für meinen Discord-Server oder ein Skript, das Apps nach jedem Push neu ausrollt. Die meiste Zeit steckt gerade in **Tellersonne**, meiner Koch-App für iOS und Android, live auf [tellersonne.app](https://tellersonne.app).
 
 <table>
   <tr><td><b>Standort</b></td><td>Itzehoe, Schleswig-Holstein</td></tr>
-  <tr><td><b>Firma</b></td><td>Gründer von <a href="https://www.uplytech.de">UplyTech</a>, einer Community und einem Projekt, noch kein Gewerbe</td></tr>
+  <tr><td><b>Projekt</b></td><td>Gründer von <a href="https://www.uplytech.de">UplyTech</a>, einer Community und einem Projekt, noch kein Gewerbe</td></tr>
   <tr><td><b>Aktuelles Projekt</b></td><td><a href="https://tellersonne.app">Tellersonne</a>, Rezepte ohne Werbung und Drittanbieter-Analyse</td></tr>
   <tr><td><b>Täglicher Stack</b></td><td>TypeScript, Next.js, Node.js, Python, Go, Prisma, Docker, Cloudflare</td></tr>
   <tr><td><b>Stacks</b></td><td>MEVN, MERN, MEEN und MENN, dazu Electron, TypeScript, MySQL, Prisma und Tailwind CSS</td></tr>
@@ -37,14 +37,14 @@ Ich bin Tim, Full-Stack-Entwickler aus Itzehoe und habe mir das Programmieren se
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-hire-de-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/h-hire-de-light.svg"><img alt="Für Recruiter und Kunden" src="assets/h-hire-de-light.svg" width="100%"></picture>
 
-Du willst mich einstellen oder ein Projekt gemeinsam starten? Hier stehen die Angaben, nach denen Recruiter und Kunden zuerst fragen.
+Du willst mich einstellen oder ein Projekt gemeinsam starten? Hier steht, was du für die Entscheidung brauchst, ob wir zusammenpassen.
 
 <table>
   <tr><td><b>Rollen</b></td><td>Full-Stack- und Backend-Entwicklung, DevOps und Serverbetrieb. Bei Webprojekten übernehme ich auch die technische Planung und Leitung</td></tr>
-  <tr><td><b>Im Alltag</b></td><td>Entwicklung, Auslieferung und Betrieb für Kundenprojekte, viele davon unter dem Namen <a href="https://www.uplytech.de">UplyTech</a>, von der Oberfläche bis zum Server</td></tr>
+  <tr><td><b>Im Alltag</b></td><td>Entwicklung, Auslieferung und Betrieb für Kundenprojekte, von der Oberfläche bis zum Server</td></tr>
   <tr><td><b>Hauptstack</b></td><td>TypeScript mit Next.js, React und Node.js · Python mit FastAPI und discord.py · Go für Kommandozeilen-Tools · PostgreSQL und Prisma · Docker, Linux und Cloudflare · CI mit CodeQL, OpenSSF Scorecard und signierten Releases</td></tr>
   <tr><td><b>Typische Aufträge</b></td><td>Firmenwebsites und Web-Apps, Admin-Dashboards, REST-APIs, Discord-Bots mit Web-Dashboard, Linux-Server mit Monitoring</td></tr>
-  <tr><td><b>Erfahrung</b></td><td>Ich programmiere seit 2017 und habe es mir selbst beigebracht. Seit 2017 laufen Dienste von mir im Dauerbetrieb, vom Minecraft-Netzwerk PlayGS bis zu Tellersonne heute</td></tr>
+  <tr><td><b>Erfahrung</b></td><td>Ich programmiere seit 2017 und habe es mir selbst beigebracht. Ich betreibe seit Jahren eigene Dienste, vom Minecraft-Netzwerk PlayGS (2017 bis 2019) bis zu Tellersonne heute</td></tr>
   <tr><td><b>Nachweise</b></td><td>39 Kurszertifikate von Programming Hub, LinkedIn Learning und freeCodeCamp, 38 davon mit PDF, öffentlicher Code in den Repositories weiter unten und <a href="https://www.bestpractices.dev/projects/16102">VectolynCloud</a> mit dem OpenSSF-Best-Practices-Badge (Passing)</td></tr>
   <tr><td><b>Verfügbarkeit</b></td><td>Offen für Projektaufträge und Freelance sowie für eine Festanstellung. Remote, vor Ort oder hybrid</td></tr>
   <tr><td><b>Standort und Sprachen</b></td><td>Itzehoe · Deutsch (Muttersprache), Englisch</td></tr>
