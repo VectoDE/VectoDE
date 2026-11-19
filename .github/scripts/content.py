@@ -126,11 +126,11 @@ TIMELINE = {
     "en": [("2014", ["First contact with", "computers and tech"]), ("2016", ["First Minecraft", "projects"]),
            ("2017", ["Started coding,", "founded PlayGS"]), ("2021", ["First", "certificates"]),
            ("2023", ["PHP, Laravel, Linux,", "volunteer CMO"]), ("2024", ["NodCord and the", "UplyTech API"]),
-           ("2025", ["VectoBeat and", "new UplyTech site"]), ("2026", ["Started", "Tellersonne"])],
+           ("2025", ["VectoBeat and", "new UplyTech site"]), ("2026", ["Started Tellersonne,", "VectolynCloud (Oct);", "LineFM in Flutter on", "the side (Nov/Dec)"])],
     "de": [("2014", ["Erster Kontakt mit", "Computern und Technik"]), ("2016", ["Erste Projekte rund", "um Minecraft"]),
            ("2017", ["Programmieren,", "PlayGS gegründet"]), ("2021", ["Erste", "Zertifikate"]),
            ("2023", ["PHP, Laravel, Linux,", "ehrenamtl. CMO"]), ("2024", ["NodCord und die", "UplyTech-API"]),
-           ("2025", ["VectoBeat und neue", "UplyTech-Website"]), ("2026", ["Start von", "Tellersonne"])],
+           ("2025", ["VectoBeat und neue", "UplyTech-Website"]), ("2026", ["Start von Tellersonne,", "VectolynCloud (Okt.);", "LineFM in Flutter", "nebenbei (Nov./Dez.)"])],
 }
 TODAY = {"en": "Today", "de": "Heute"}
 
@@ -181,11 +181,14 @@ TEXT = {
             "PlayGS, a Minecraft network with its own plugins, a shop and a TeamSpeak that I ran from 2017 to 2019. "
             "I played football for SSC Phönix Kisdorf until programming took over my evenings. Most of my own projects started as fixes "
             "for my own problems, like a music bot for my Discord server or a script that redeploys apps when I push. "
-            "Most of my time right now goes into **Tellersonne**, my cooking app for iOS and Android, live at [tellersonne.app](https://tellersonne.app).",
+            "Most of my time right now goes into **Tellersonne**, my cooking app for iOS and Android, live at [tellersonne.app](https://tellersonne.app). "
+            "Tellersonne keeps running, and so does [VectolynCloud](https://github.com/VectoDE/VectolynCloud), which I started in October 2026. "
+            "In November and December I'm also building the LineFM app in Flutter on the side.",
         ],
         facts=[("Based in", "Itzehoe, Schleswig-Holstein, Germany"),
                ("Project", "Founder of [UplyTech](https://www.uplytech.de), a community and project, not yet a registered business"),
-               ("Working on", "[Tellersonne](https://tellersonne.app), recipes without ads or third-party analytics"),
+               ("Working on", "[Tellersonne](https://tellersonne.app), recipes without ads or third-party analytics. "
+                            f"Also [VectolynCloud](https://github.com/VectoDE/VectolynCloud) (since October 2026) and, on the side in November and December 2026, the LineFM app in Flutter"),
                ("Day-to-day stack", "TypeScript, Next.js, Node.js, Python, Go, Prisma, Docker, Cloudflare"),
                ("Stacks", "MEVN, MERN, MEEN and MENN, plus Electron, TypeScript, MySQL, Prisma and Tailwind CSS"),
                ("Languages", "German (native), English"),
@@ -236,7 +239,7 @@ TEXT = {
             ("2023", "Worked through PHP, Laravel, Java, Linux, networking, Git and GraphQL. Volunteer CMO at BonToGo (Nov 2023 to Jun 2024): marketing plan and social media"),
             ("2024", "Released NodCord and built the UplyTech API. Courses on LinkedIn Learning and the freeCodeCamp Responsive Web Design certification"),
             ("2025", "ServerCommander, my portfolio, the Linux setup script and Self-Updater. Relaunched the UplyTech website, founded the esports club MitFits Gaming and shipped VectoBeat"),
-            ("2026", "Handed MitFits Gaming over to a community member and started Tellersonne"),
+            ("2026", "Handed MitFits Gaming over to a community member and started Tellersonne. Started VectolynCloud in October and built the LineFM app in Flutter on the side in November and December"),
         ],
         core_label="First choice on client work",
         stack_intro="Everything I have worked with, sorted by area. Icons come from skillicons.dev; anything without an icon there gets a text badge.",
@@ -275,11 +278,14 @@ TEXT = {
             "PlayGS, ein Minecraft-Netzwerk mit eigenen Plugins, Shop und TeamSpeak, das ich von 2017 bis 2019 betrieben habe. "
             "Ich habe beim SSC Phönix Kisdorf Fußball gespielt, bis das Programmieren meine Abende gefüllt hat. Die meisten meiner eigenen Projekte "
             "sind aus eigenen Problemen entstanden, etwa ein Musikbot für meinen Discord-Server oder ein Skript, das Apps nach jedem Push neu ausrollt. "
-            "Die meiste Zeit steckt gerade in **Tellersonne**, meiner Koch-App für iOS und Android, live auf [tellersonne.app](https://tellersonne.app).",
+            "Die meiste Zeit steckt gerade in **Tellersonne**, meiner Koch-App für iOS und Android, live auf [tellersonne.app](https://tellersonne.app). "
+            "Tellersonne läuft weiter, ebenso [VectolynCloud](https://github.com/VectoDE/VectolynCloud), das ich im Oktober 2026 begonnen habe. "
+            "Im November und Dezember baue ich nebenbei die LineFM-App in Flutter.",
         ],
         facts=[("Standort", "Itzehoe, Schleswig-Holstein"),
                ("Projekt", "Gründer von [UplyTech](https://www.uplytech.de), einer Community und einem Projekt, noch kein Gewerbe"),
-               ("Aktuelles Projekt", "[Tellersonne](https://tellersonne.app), Rezepte ohne Werbung und Drittanbieter-Analyse"),
+               ("Aktuelles Projekt", "[Tellersonne](https://tellersonne.app), Rezepte ohne Werbung und Drittanbieter-Analyse. "
+                                  f"Dazu [VectolynCloud](https://github.com/VectoDE/VectolynCloud) (seit Oktober 2026) und nebenbei im November und Dezember 2026 die LineFM-App in Flutter"),
                ("Täglicher Stack", "TypeScript, Next.js, Node.js, Python, Go, Prisma, Docker, Cloudflare"),
                ("Stacks", "MEVN, MERN, MEEN und MENN, dazu Electron, TypeScript, MySQL, Prisma und Tailwind CSS"),
                ("Sprachen", "Deutsch (Muttersprache), Englisch"),
@@ -331,7 +337,7 @@ TEXT = {
             ("2023", "PHP, Laravel, Java, Linux, Netzwerke, Git und GraphQL gelernt. Ehrenamtlicher CMO bei BonToGo (Nov. 2023 bis Juni 2024): Marketingplan und Social Media"),
             ("2024", "NodCord veröffentlicht und die UplyTech-API gebaut. Kurse bei LinkedIn Learning und die Zertifizierung Responsive Web Design von freeCodeCamp"),
             ("2025", "ServerCommander, mein Portfolio, das Linux-Setup-Skript und Self-Updater. Neue UplyTech-Website, Gründung des E-Sport-Clubs MitFits Gaming und Start von VectoBeat"),
-            ("2026", "MitFits Gaming an ein Community-Mitglied übergeben und mit Tellersonne begonnen"),
+            ("2026", "MitFits Gaming an ein Community-Mitglied übergeben und mit Tellersonne begonnen. Im Oktober VectolynCloud gestartet, im November und Dezember nebenbei die LineFM-App in Flutter gebaut"),
         ],
         core_label="Erste Wahl bei Kundenprojekten",
         stack_intro="Alles, womit ich gearbeitet habe, nach Bereichen sortiert. Die Icons stammen von skillicons.dev; was dort kein Icon hat, bekommt ein Text-Badge.",

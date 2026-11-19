@@ -406,7 +406,7 @@ def timeline(t, lang):
     n = len(items)
     step = (FW - 2 * 90) / (n - 1)
     xs = [90 + i * step for i in range(n)]
-    ys = [266 - i * (150 / (n - 1)) for i in range(n)]
+    ys = [266 - i * (112 / (n - 1)) for i in range(n)]
     pts = list(zip(xs, ys))
     d = f"M {pt(pts[0])}"
     for a, b in zip(pts, pts[1:]):
@@ -426,9 +426,9 @@ def timeline(t, lang):
         for hx in (x - hl, x + hl):
             o.append(f'<circle cx="{hx}" cy="{y}" r="3.5" fill="{t["panel"]}" stroke="{t["amber"]}" stroke-width="1.5"/>')
         o.append(f'<rect x="{x - 7}" y="{y - 7}" width="14" height="14" fill="{t["blue"] if last else t["panel"]}" stroke="{t["blue"]}" stroke-width="2"/>')
-        o.append(txt(DISPLAY, year, 27, x, y - 76, t["text"], anchor="middle"))
-        o.append(txt(SANS, lines[0], 13.5, x, y - 54, t["muted"], anchor="middle"))
-        o.append(txt(SANS, lines[1], 13.5, x, y - 35, t["muted"], anchor="middle"))
+        o.append(txt(DISPLAY, year, 27, x, y - 38 - 19 * len(lines), t["text"], anchor="middle"))
+        for j, line in enumerate(lines):
+            o.append(txt(SANS, line, 13.5, x, y - 35 - 19 * (len(lines) - 1 - j), t["muted"], anchor="middle"))
         o.append("</g>")
     lx, ly = xs[-1], ys[-1]
     tw = measure(SANS_BOLD, TODAY[lang], 12) + 20

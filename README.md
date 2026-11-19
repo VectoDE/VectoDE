@@ -21,12 +21,12 @@
 
 I'm Tim, a self-taught full-stack developer from Itzehoe in northern Germany. I founded [UplyTech](https://www.uplytech.de), a community and project for development, design, video and marketing, where I build websites, web apps, APIs and custom software and then host and maintain what I ship.
 
-My first contact with computers and tech came in 2014, and my first Minecraft projects followed in 2016. In 2017 I started coding and taught myself from YouTube tutorials. That led to PlayGS, a Minecraft network with its own plugins, a shop and a TeamSpeak that I ran from 2017 to 2019. I played football for SSC Phönix Kisdorf until programming took over my evenings. Most of my own projects started as fixes for my own problems, like a music bot for my Discord server or a script that redeploys apps when I push. Most of my time right now goes into **Tellersonne**, my cooking app for iOS and Android, live at [tellersonne.app](https://tellersonne.app).
+My first contact with computers and tech came in 2014, and my first Minecraft projects followed in 2016. In 2017 I started coding and taught myself from YouTube tutorials. That led to PlayGS, a Minecraft network with its own plugins, a shop and a TeamSpeak that I ran from 2017 to 2019. I played football for SSC Phönix Kisdorf until programming took over my evenings. Most of my own projects started as fixes for my own problems, like a music bot for my Discord server or a script that redeploys apps when I push. Most of my time right now goes into **Tellersonne**, my cooking app for iOS and Android, live at [tellersonne.app](https://tellersonne.app). Tellersonne keeps running, and so does [VectolynCloud](https://github.com/VectoDE/VectolynCloud), which I started in October 2026. In November and December I'm also building the LineFM app in Flutter on the side.
 
 <table>
   <tr><td><b>Based in</b></td><td>Itzehoe, Schleswig-Holstein, Germany</td></tr>
   <tr><td><b>Project</b></td><td>Founder of <a href="https://www.uplytech.de">UplyTech</a>, a community and project, not yet a registered business</td></tr>
-  <tr><td><b>Working on</b></td><td><a href="https://tellersonne.app">Tellersonne</a>, recipes without ads or third-party analytics</td></tr>
+  <tr><td><b>Working on</b></td><td><a href="https://tellersonne.app">Tellersonne</a>, recipes without ads or third-party analytics. Also <a href="https://github.com/VectoDE/VectolynCloud">VectolynCloud</a> (since October 2026) and, on the side in November and December 2026, the LineFM app in Flutter</td></tr>
   <tr><td><b>Day-to-day stack</b></td><td>TypeScript, Next.js, Node.js, Python, Go, Prisma, Docker, Cloudflare</td></tr>
   <tr><td><b>Stacks</b></td><td>MEVN, MERN, MEEN and MENN, plus Electron, TypeScript, MySQL, Prisma and Tailwind CSS</td></tr>
   <tr><td><b>Languages</b></td><td>German (native), English</td></tr>
@@ -114,7 +114,7 @@ Every project in one sentence:
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-timeline-en-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/h-timeline-en-light.svg"><img alt="Timeline" src="assets/h-timeline-en-light.svg" width="100%"></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/timeline-en-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/timeline-en-light.svg"><img alt="2014: First contact with computers and tech; 2016: First Minecraft projects; 2017: Started coding. Founded PlayGS, a Minecraft network with every game mode on one server, own plugins, a shop and TeamSpeak (2017 to 2019); 2018: Started ServerwerkNET, a development organisation (2018 to 2020); 2021: First certificates in HTML, Node.js and building websites; 2023: Worked through PHP, Laravel, Java, Linux, networking, Git and GraphQL. Volunteer CMO at BonToGo (Nov 2023 to Jun 2024): marketing plan and social media; 2024: Released NodCord and built the UplyTech API. Courses on LinkedIn Learning and the freeCodeCamp Responsive Web Design certification; 2025: ServerCommander, my portfolio, the Linux setup script and Self-Updater. Relaunched the UplyTech website, founded the esports club MitFits Gaming and shipped VectoBeat; 2026: Handed MitFits Gaming over to a community member and started Tellersonne" src="assets/timeline-en-light.svg" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/timeline-en-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/timeline-en-light.svg"><img alt="2014: First contact with computers and tech; 2016: First Minecraft projects; 2017: Started coding. Founded PlayGS, a Minecraft network with every game mode on one server, own plugins, a shop and TeamSpeak (2017 to 2019); 2018: Started ServerwerkNET, a development organisation (2018 to 2020); 2021: First certificates in HTML, Node.js and building websites; 2023: Worked through PHP, Laravel, Java, Linux, networking, Git and GraphQL. Volunteer CMO at BonToGo (Nov 2023 to Jun 2024): marketing plan and social media; 2024: Released NodCord and built the UplyTech API. Courses on LinkedIn Learning and the freeCodeCamp Responsive Web Design certification; 2025: ServerCommander, my portfolio, the Linux setup script and Self-Updater. Relaunched the UplyTech website, founded the esports club MitFits Gaming and shipped VectoBeat; 2026: Handed MitFits Gaming over to a community member and started Tellersonne. Started VectolynCloud in October and built the LineFM app in Flutter on the side in November and December" src="assets/timeline-en-light.svg" width="100%"></picture>
 
 <details>
 <summary>Timeline as text</summary>
@@ -129,7 +129,7 @@ Every project in one sentence:
 | **2023** | Worked through PHP, Laravel, Java, Linux, networking, Git and GraphQL. Volunteer CMO at BonToGo (Nov 2023 to Jun 2024): marketing plan and social media |
 | **2024** | Released NodCord and built the UplyTech API. Courses on LinkedIn Learning and the freeCodeCamp Responsive Web Design certification |
 | **2025** | ServerCommander, my portfolio, the Linux setup script and Self-Updater. Relaunched the UplyTech website, founded the esports club MitFits Gaming and shipped VectoBeat |
-| **2026** | Handed MitFits Gaming over to a community member and started Tellersonne |
+| **2026** | Handed MitFits Gaming over to a community member and started Tellersonne. Started VectolynCloud in October and built the LineFM app in Flutter on the side in November and December |
 
 </details>
 
