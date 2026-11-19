@@ -182,7 +182,7 @@ TEXT = {
             "I played football for SSC Phönix Kisdorf until programming took over my evenings. Most of my own projects started as fixes "
             "for my own problems, like a music bot for my Discord server or a script that redeploys apps when I push. "
             "Most of my time right now goes into **Tellersonne**, my cooking app for iOS and Android, live at [tellersonne.app](https://tellersonne.app). "
-            "Since October 2026 I've also been working on [VectolynCloud](https://github.com/VectoDE/VectolynCloud). "
+            "Tellersonne keeps running. Since October 2026 I've also been working on [VectolynCloud](https://github.com/VectoDE/VectolynCloud). "
             "In November and December I'm building the LineFM app in Flutter on the side.",
         ],
         facts=[("Based in", "Itzehoe, Schleswig-Holstein, Germany"),
@@ -279,7 +279,7 @@ TEXT = {
             "Ich habe beim SSC Phönix Kisdorf Fußball gespielt, bis das Programmieren meine Abende gefüllt hat. Die meisten meiner eigenen Projekte "
             "sind aus eigenen Problemen entstanden, etwa ein Musikbot für meinen Discord-Server oder ein Skript, das Apps nach jedem Push neu ausrollt. "
             "Die meiste Zeit steckt gerade in **Tellersonne**, meiner Koch-App für iOS und Android, live auf [tellersonne.app](https://tellersonne.app). "
-            "Dazu kommt seit Oktober 2026 [VectolynCloud](https://github.com/VectoDE/VectolynCloud). "
+            "Tellersonne läuft weiter. Dazu kommt seit Oktober 2026 [VectolynCloud](https://github.com/VectoDE/VectolynCloud). "
             "Im November und Dezember baue ich nebenbei die LineFM-App in Flutter.",
         ],
         facts=[("Standort", "Itzehoe, Schleswig-Holstein"),
@@ -337,7 +337,7 @@ TEXT = {
             ("2023", "PHP, Laravel, Java, Linux, Netzwerke, Git und GraphQL gelernt. Ehrenamtlicher CMO bei BonToGo (Nov. 2023 bis Juni 2024): Marketingplan und Social Media"),
             ("2024", "NodCord veröffentlicht und die UplyTech-API gebaut. Kurse bei LinkedIn Learning und die Zertifizierung Responsive Web Design von freeCodeCamp"),
             ("2025", "ServerCommander, mein Portfolio, das Linux-Setup-Skript und Self-Updater. Neue UplyTech-Website, Gründung des E-Sport-Clubs MitFits Gaming und Start von VectoBeat"),
-            ("2026", "MitFits Gaming an ein Community-Mitglied übergeben und mit Tellersonne und im Oktober mit VectolynCloud begonnen. Im November und Dezember baue ich nebenbei die LineFM-App in Flutter"),
+            ("2026", "MitFits Gaming an ein Community-Mitglied übergeben und mit Tellersonne begonnen, im Oktober dann VectolynCloud. Im November und Dezember baue ich nebenbei die LineFM-App in Flutter"),
         ],
         core_label="Erste Wahl bei Kundenprojekten",
         stack_intro="Alles, womit ich gearbeitet habe, nach Bereichen sortiert. Die Icons stammen von skillicons.dev; was dort kein Icon hat, bekommt ein Text-Badge.",
