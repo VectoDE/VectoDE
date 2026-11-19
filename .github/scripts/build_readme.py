@@ -130,7 +130,8 @@ def stack(lang):
         with_icon = [(n, i) for n, i, _ in items if i]
         icons = ""
         if with_icon:
-            base = f"https://skillicons.dev/icons?i={','.join(i for _, i in with_icon)}&perline=13&theme="
+            # a plain comma would split the srcset into several candidates, so it is encoded
+            base = f"https://skillicons.dev/icons?i={'%2C'.join(i for _, i in with_icon)}&perline=13&theme="
             icons = picture(base + "dark", base + "light", ", ".join(n for n, _ in with_icon), None)
         badges = " ".join(picture(shield(n, "dark"), shield(n, "light"), n, None) for n, i, _ in items if not i)
         rows.append((f"<b>{label[lang]}</b>", "<br>".join(x for x in (icons, badges) if x)))
@@ -168,7 +169,7 @@ def build(lang):
         cells = [asset(f"card-{key}", f"{name}: {text[lang]}", lang, "49%", url)
                  for key, name, url, _icon, _status, text, _stack in PROJECTS[i:i + 2]]
         parts.append('<p align="center">\n  ' + "\n  ".join(cells) + "\n</p>")
-    parts += [f"**{tx['projects_short']}**", ""]
+    parts += ["", tx['projects_short'] + ":", ""]
     parts += [f"- [{name}]({url}): {text[lang]}" for _k, name, url, _i, _s, text, _st in PROJECTS] + [""]
     parts += ['<p align="center"><sub>' + tx["project_links"] + ": " +
               ", ".join(f'{n} <a href="{u}">{u.split("//")[1]}</a>' for n, u in LIVE_SITES) + "</sub></p>", ""]
