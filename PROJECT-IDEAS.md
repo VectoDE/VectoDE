@@ -54,4 +54,4 @@
 
 ## Solidity
 
-- **Checksums for my course certificates**: a contract on a test network that stores the hashes of my certificate PDFs, so anyone can check that a PDF is unchanged. It runs on a test network only and needs no tokens.
+- **Checksums for my course certificates**: a contract on a test network that stores the hashes of my certificate PDFs, so anyone can check that a PDF is unchanged. It runs on a test network only and needs no real money, only free test tokens.

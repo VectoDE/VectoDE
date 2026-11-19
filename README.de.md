@@ -44,7 +44,7 @@ Du willst mich einstellen oder ein Projekt gemeinsam starten? Hier steht, was du
   <tr><td><b>Im Alltag</b></td><td>Entwicklung, Auslieferung und Betrieb für Kundenprojekte, von der Oberfläche bis zum Server</td></tr>
   <tr><td><b>Hauptstack</b></td><td>TypeScript mit Next.js, React und Node.js · Python mit FastAPI und discord.py · Go für Kommandozeilen-Tools · PostgreSQL und Prisma · Docker, Linux und Cloudflare · CI mit CodeQL, OpenSSF Scorecard und signierten Releases</td></tr>
   <tr><td><b>Typische Aufträge</b></td><td>Firmenwebsites und Web-Apps, Admin-Dashboards, REST-APIs, Discord-Bots mit Web-Dashboard, Linux-Server mit Monitoring</td></tr>
-  <tr><td><b>Erfahrung</b></td><td>Ich programmiere seit 2017 und habe es mir selbst beigebracht. Ich betreibe seit Jahren eigene Dienste, vom Minecraft-Netzwerk PlayGS (2017 bis 2019) bis zu Tellersonne heute</td></tr>
+  <tr><td><b>Erfahrung</b></td><td>Ich programmiere seit 2017 und habe es mir selbst beigebracht. Ich habe eigene Dienste im Livebetrieb geführt, vom Minecraft-Netzwerk PlayGS (2017 bis 2019) bis zu Tellersonne heute</td></tr>
   <tr><td><b>Nachweise</b></td><td>39 Kurszertifikate von Programming Hub, LinkedIn Learning und freeCodeCamp, 38 davon mit PDF, öffentlicher Code in den Repositories weiter unten und <a href="https://www.bestpractices.dev/projects/16102">VectolynCloud</a> mit dem OpenSSF-Best-Practices-Badge (Passing)</td></tr>
   <tr><td><b>Verfügbarkeit</b></td><td>Offen für Projektaufträge und Freelance sowie für eine Festanstellung. Remote, vor Ort oder hybrid</td></tr>
   <tr><td><b>Standort und Sprachen</b></td><td>Itzehoe · Deutsch (Muttersprache), Englisch</td></tr>

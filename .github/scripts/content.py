@@ -210,7 +210,7 @@ TEXT = {
                                "PostgreSQL and Prisma · Docker, Linux and Cloudflare · CI with CodeQL, OpenSSF Scorecard and signed releases"),
               ("Typical work", "Company websites and web apps, admin dashboards, REST APIs, Discord bots with a web dashboard, "
                                "Linux servers with monitoring"),
-              ("Experience", "Coding since 2017, self-taught. I have run live services for years, from the PlayGS Minecraft network (2017 to 2019) to Tellersonne today"),
+              ("Experience", "Coding since 2017, self-taught. I have run live services of my own, from the PlayGS Minecraft network (2017 to 2019) to Tellersonne today"),
               ("Proof", "{count} course certificates from Programming Hub, LinkedIn Learning and freeCodeCamp, {pdfs} of them with a PDF, public code in the repositories below, and "
                         "[VectolynCloud](https://www.bestpractices.dev/projects/16102) with the OpenSSF Best Practices badge (passing)"),
               ("Availability", "Open to client projects and freelance work as well as a permanent position. Remote, on site or hybrid"),
@@ -304,7 +304,7 @@ TEXT = {
                                   "PostgreSQL und Prisma · Docker, Linux und Cloudflare · CI mit CodeQL, OpenSSF Scorecard und signierten Releases"),
               ("Typische Aufträge", "Firmenwebsites und Web-Apps, Admin-Dashboards, REST-APIs, Discord-Bots mit Web-Dashboard, "
                                     "Linux-Server mit Monitoring"),
-              ("Erfahrung", "Ich programmiere seit 2017 und habe es mir selbst beigebracht. Ich betreibe seit Jahren eigene Dienste, "
+              ("Erfahrung", "Ich programmiere seit 2017 und habe es mir selbst beigebracht. Ich habe eigene Dienste im Livebetrieb geführt, "
                             "vom Minecraft-Netzwerk PlayGS (2017 bis 2019) bis zu Tellersonne heute"),
               ("Nachweise", "{count} Kurszertifikate von Programming Hub, LinkedIn Learning und freeCodeCamp, {pdfs} davon mit PDF, öffentlicher Code in den Repositories weiter unten und "
                             "[VectolynCloud](https://www.bestpractices.dev/projects/16102) mit dem OpenSSF-Best-Practices-Badge (Passing)"),

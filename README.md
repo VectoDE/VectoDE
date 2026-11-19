@@ -44,7 +44,7 @@ Looking to hire me, or to start a project together? Here is what you need to dec
   <tr><td><b>Day to day</b></td><td>Development, deployment and operations for client projects, from the interface to the server</td></tr>
   <tr><td><b>Main stack</b></td><td>TypeScript with Next.js, React and Node.js · Python with FastAPI and discord.py · Go for command-line tools · PostgreSQL and Prisma · Docker, Linux and Cloudflare · CI with CodeQL, OpenSSF Scorecard and signed releases</td></tr>
   <tr><td><b>Typical work</b></td><td>Company websites and web apps, admin dashboards, REST APIs, Discord bots with a web dashboard, Linux servers with monitoring</td></tr>
-  <tr><td><b>Experience</b></td><td>Coding since 2017, self-taught. I have run live services for years, from the PlayGS Minecraft network (2017 to 2019) to Tellersonne today</td></tr>
+  <tr><td><b>Experience</b></td><td>Coding since 2017, self-taught. I have run live services of my own, from the PlayGS Minecraft network (2017 to 2019) to Tellersonne today</td></tr>
   <tr><td><b>Proof</b></td><td>39 course certificates from Programming Hub, LinkedIn Learning and freeCodeCamp, 38 of them with a PDF, public code in the repositories below, and <a href="https://www.bestpractices.dev/projects/16102">VectolynCloud</a> with the OpenSSF Best Practices badge (passing)</td></tr>
   <tr><td><b>Availability</b></td><td>Open to client projects and freelance work as well as a permanent position. Remote, on site or hybrid</td></tr>
   <tr><td><b>Location and languages</b></td><td>Itzehoe, Germany · German (native), English</td></tr>

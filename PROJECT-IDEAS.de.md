@@ -54,4 +54,4 @@
 
 ## Solidity
 
-- **Prüfsummen für meine Kurszertifikate**: Ein Vertrag in einem Testnetz, der die Hashes meiner Zertifikat-PDFs speichert, damit jeder prüfen kann, dass ein PDF unverändert ist. Das läuft nur in einem Testnetz und braucht keine Token.
+- **Prüfsummen für meine Kurszertifikate**: Ein Vertrag in einem Testnetz, der die Hashes meiner Zertifikat-PDFs speichert, damit jeder prüfen kann, dass ein PDF unverändert ist. Das läuft nur in einem Testnetz und braucht kein echtes Geld, nur kostenlose Test-Token.
