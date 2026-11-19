@@ -182,8 +182,8 @@ TEXT = {
             "I played football for SSC Phönix Kisdorf until programming took over my evenings. Most of my own projects started as fixes "
             "for my own problems, like a music bot for my Discord server or a script that redeploys apps when I push. "
             "Most of my time right now goes into **Tellersonne**, my cooking app for iOS and Android, live at [tellersonne.app](https://tellersonne.app). "
-            "Tellersonne keeps running, and so does [VectolynCloud](https://github.com/VectoDE/VectolynCloud), which I started in October 2026. "
-            "In November and December I'm also building the LineFM app in Flutter on the side.",
+            "Since October 2026 I've also been working on [VectolynCloud](https://github.com/VectoDE/VectolynCloud). "
+            "In November and December I'm building the LineFM app in Flutter on the side.",
         ],
         facts=[("Based in", "Itzehoe, Schleswig-Holstein, Germany"),
                ("Project", "Founder of [UplyTech](https://www.uplytech.de), a community and project, not yet a registered business"),
@@ -239,7 +239,7 @@ TEXT = {
             ("2023", "Worked through PHP, Laravel, Java, Linux, networking, Git and GraphQL. Volunteer CMO at BonToGo (Nov 2023 to Jun 2024): marketing plan and social media"),
             ("2024", "Released NodCord and built the UplyTech API. Courses on LinkedIn Learning and the freeCodeCamp Responsive Web Design certification"),
             ("2025", "ServerCommander, my portfolio, the Linux setup script and Self-Updater. Relaunched the UplyTech website, founded the esports club MitFits Gaming and shipped VectoBeat"),
-            ("2026", "Handed MitFits Gaming over to a community member and started Tellersonne. Started VectolynCloud in October; building the LineFM app in Flutter on the side in November and December"),
+            ("2026", "Handed MitFits Gaming over to a community member, started Tellersonne and, in October, VectolynCloud. In November and December I'm building the LineFM app in Flutter on the side"),
         ],
         core_label="First choice on client work",
         stack_intro="Everything I have worked with, sorted by area. Icons come from skillicons.dev; anything without an icon there gets a text badge.",
@@ -279,7 +279,7 @@ TEXT = {
             "Ich habe beim SSC Phönix Kisdorf Fußball gespielt, bis das Programmieren meine Abende gefüllt hat. Die meisten meiner eigenen Projekte "
             "sind aus eigenen Problemen entstanden, etwa ein Musikbot für meinen Discord-Server oder ein Skript, das Apps nach jedem Push neu ausrollt. "
             "Die meiste Zeit steckt gerade in **Tellersonne**, meiner Koch-App für iOS und Android, live auf [tellersonne.app](https://tellersonne.app). "
-            "Tellersonne läuft weiter, ebenso [VectolynCloud](https://github.com/VectoDE/VectolynCloud), das ich im Oktober 2026 begonnen habe. "
+            "Dazu kommt seit Oktober 2026 [VectolynCloud](https://github.com/VectoDE/VectolynCloud). "
             "Im November und Dezember baue ich nebenbei die LineFM-App in Flutter.",
         ],
         facts=[("Standort", "Itzehoe, Schleswig-Holstein"),
@@ -337,7 +337,7 @@ TEXT = {
             ("2023", "PHP, Laravel, Java, Linux, Netzwerke, Git und GraphQL gelernt. Ehrenamtlicher CMO bei BonToGo (Nov. 2023 bis Juni 2024): Marketingplan und Social Media"),
             ("2024", "NodCord veröffentlicht und die UplyTech-API gebaut. Kurse bei LinkedIn Learning und die Zertifizierung Responsive Web Design von freeCodeCamp"),
             ("2025", "ServerCommander, mein Portfolio, das Linux-Setup-Skript und Self-Updater. Neue UplyTech-Website, Gründung des E-Sport-Clubs MitFits Gaming und Start von VectoBeat"),
-            ("2026", "MitFits Gaming an ein Community-Mitglied übergeben und mit Tellersonne begonnen. Im Oktober VectolynCloud gestartet, im November und Dezember baue ich nebenbei die LineFM-App in Flutter"),
+            ("2026", "MitFits Gaming an ein Community-Mitglied übergeben und mit Tellersonne und im Oktober mit VectolynCloud begonnen. Im November und Dezember baue ich nebenbei die LineFM-App in Flutter"),
         ],
         core_label="Erste Wahl bei Kundenprojekten",
         stack_intro="Alles, womit ich gearbeitet habe, nach Bereichen sortiert. Die Icons stammen von skillicons.dev; was dort kein Icon hat, bekommt ein Text-Badge.",
