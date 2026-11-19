@@ -1,8 +1,8 @@
-# Project ideas
+# Project ideas I might build
 
 [Deutsch](PROJECT-IDEAS.de.md) · [Back to my profile](README.md)
 
-**These are ideas I might build. None of them exists yet.** I have not written code in any of the languages below, so they are not in my [tech stack](README.md). Each idea is a real problem from my own work that would be a good excuse to learn the language. If one of them becomes a repository, it moves into the profile README.
+**These are ideas I might build. None of them exists yet.** I have not written code in any of the languages below, so they are not in my [tech stack](README.md). Some tools around them, such as Godot and Unreal Engine, are in the stack; the languages are not. Each idea is a real problem from my own work that would be a good excuse to learn the language. If one of them becomes a repository, it moves into the profile README.
 
 ## R
 
@@ -54,4 +54,4 @@
 
 ## Solidity
 
-- **Certificate fingerprints**: a contract on a test network that stores the hashes of my certificate PDFs, so anyone can check that a PDF is unchanged. Test network only, no tokens.
+- **Checksums for my course certificates**: a contract on a test network that stores the hashes of my certificate PDFs, so anyone can check that a PDF is unchanged. It runs on a test network only and needs no tokens.

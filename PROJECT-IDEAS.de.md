@@ -1,8 +1,8 @@
-# Projektideen
+# Projektideen, die ich vielleicht umsetze
 
 [English](PROJECT-IDEAS.md) · [Zurück zum Profil](README.de.md)
 
-**Das hier sind Ideen, die ich vielleicht umsetze. Fertig ist davon noch nichts.** In den Sprachen unten habe ich noch keinen Code geschrieben, deshalb stehen sie nicht in meinem [Tech-Stack](README.de.md). Jede Idee stammt aus meiner eigenen Arbeit und wäre ein guter Anlass, die Sprache an einem echten Problem zu lernen. Wird daraus ein Repository, wandert es ins Profil-README.
+**Das hier sind Ideen, die ich vielleicht umsetze. Fertig ist davon noch nichts.** In den Sprachen unten habe ich noch keinen Code geschrieben, deshalb stehen sie nicht in meinem [Tech-Stack](README.de.md). Einige Werkzeuge drumherum, etwa Godot und die Unreal Engine, stehen dort, die Sprachen nicht. Jede Idee stammt aus meiner eigenen Arbeit und wäre ein guter Anlass, die Sprache an einem echten Problem zu lernen. Wird daraus ein Repository, wandert es ins Profil-README.
 
 ## R
 
@@ -54,4 +54,4 @@
 
 ## Solidity
 
-- **Fingerabdrücke für Zertifikate**: Ein Vertrag in einem Testnetz, der die Hashes meiner Zertifikat-PDFs speichert, damit jeder prüfen kann, dass ein PDF unverändert ist. Nur Testnetz, keine Token.
+- **Prüfsummen für meine Kurszertifikate**: Ein Vertrag in einem Testnetz, der die Hashes meiner Zertifikat-PDFs speichert, damit jeder prüfen kann, dass ein PDF unverändert ist. Das läuft nur in einem Testnetz und braucht keine Token.

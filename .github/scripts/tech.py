@@ -542,3 +542,12 @@ BADGE_FG = {"dark": "FFFFFF", "light": "242938"}
 # The short list for recruiters: what I reach for first on client work.
 CORE = ["TypeScript", "Python", "Go", "React", "Next.js", "Node.js", "FastAPI", "PostgreSQL", "Prisma",
         "Docker", "Cloudflare", "GitHub Actions"]
+
+# German names for the text list in README.de.md (badges keep the product names).
+NAMES_DE = {
+    "Own Linux servers": "Eigene Linux-Server", "Own neural network (UTAI)": "Eigenes neuronales Netz (UTAI)",
+    "MCP server": "MCP-Server", "Retrieval-augmented generation": "Retrieval-Augmented Generation (RAG)",
+    "Minecraft networks": "Minecraft-Netzwerke", "Rust server (Oxide)": "Rust-Server (Oxide)",
+    "NSIS installers": "NSIS-Installer", "Status page": "Statusseite", "C (basics)": "C (Grundlagen)",
+    "C++ (basics)": "C++ (Grundlagen)", "FFmpeg streaming": "FFmpeg-Streaming", "TOTP 2FA": "TOTP-2FA",
+}

@@ -60,7 +60,7 @@ SECTIONS = {
     "services": {"en": ("What I do", "for clients"), "de": ("Was ich mache", "für Kunden")},
     "projects": {"en": ("Featured projects", "selected work"), "de": ("Ausgewählte Projekte", "eine Auswahl")},
     "timeline": {"en": ("Timeline", "2014 to today"), "de": ("Werdegang", "2014 bis heute")},
-    "stack": {"en": ("Tech stack", "everything I have worked with"), "de": ("Tech-Stack", "alles, womit ich arbeite")},
+    "stack": {"en": ("Tech stack", "everything I have worked with"), "de": ("Tech-Stack", "alles, womit ich gearbeitet habe")},
     "certificates": {"en": ("Certifications", "{count} certificates"), "de": ("Zertifikate", "{count} Nachweise")},
     "stats": {"en": ("GitHub activity", "updated daily"), "de": ("GitHub-Aktivität", "täglich aktualisiert")},
     "orgs": {"en": ("Organisations", "teams and communities"), "de": ("Organisationen", "Teams und Communitys")},
@@ -203,16 +203,15 @@ TEXT = {
         ],
         project_links="Live sites",
         projects_short="Every project in one sentence",
-        hire_intro="Hiring, or planning a project with UplyTech? This table answers the usual first questions.",
-        hire=[("Roles", "Full-stack developer, backend developer, DevOps and server operations, technical lead on web projects"),
-              ("Day to day", "I run [UplyTech](https://www.uplytech.de) as founder and managing director and write most of the code myself, "
-                             "from the interface down to the server it runs on"),
-              ("Strongest in", "TypeScript with Next.js, React and Node.js · Python with FastAPI and discord.py · Go for command-line tools · "
+        hire_intro="Looking to hire me, or to start a project with UplyTech? These are the facts recruiters and clients ask for first.",
+        hire=[("Roles", "Full-stack and backend development, DevOps and server operations. On the web projects I deliver through UplyTech I also plan and lead the technical side"),
+              ("Day to day", "Development, deployment and operations for [UplyTech](https://www.uplytech.de) clients, from the interface to the server"),
+              ("Main stack", "TypeScript with Next.js, React and Node.js · Python with FastAPI and discord.py · Go for command-line tools · "
                                "PostgreSQL and Prisma · Docker, Linux and Cloudflare · CI with CodeQL, OpenSSF Scorecard and signed releases"),
               ("Typical work", "Company websites and web apps, admin dashboards, REST APIs, Discord bots with a web dashboard, "
-                               "Linux servers with monitoring and backups"),
+                               "Linux servers with monitoring"),
               ("Experience", "Coding since 2016, self-taught. Running live services since 2017, starting with the PlayGS Minecraft network"),
-              ("Proof", "{count} certificates with PDFs, public code in the repositories below, and "
+              ("Proof", "{count} course certificates from Programming Hub, LinkedIn Learning and freeCodeCamp, {pdfs} of them with a PDF, public code in the repositories below, and "
                         "[VectolynCloud](https://www.bestpractices.dev/projects/16102) with the OpenSSF Best Practices badge (passing)"),
               ("Availability", "Open to client projects and collaborations"),
               ("Location and languages", "Itzehoe, Germany · German (native), English"),
@@ -297,17 +296,16 @@ TEXT = {
         ],
         project_links="Live-Seiten",
         projects_short="Alle Projekte in einem Satz",
-        hire_intro="Du suchst Verstärkung oder planst ein Projekt mit UplyTech? Die Tabelle beantwortet die üblichen ersten Fragen.",
-        hire=[("Rollen", "Full-Stack-Entwickler, Backend-Entwickler, DevOps und Serverbetrieb, technische Leitung von Webprojekten"),
-              ("Im Alltag", "Ich führe [UplyTech](https://www.uplytech.de) als Gründer und Geschäftsführer und schreibe den Großteil "
-                            "des Codes selbst, von der Oberfläche bis zum Server, auf dem er läuft"),
-              ("Am stärksten in", "TypeScript mit Next.js, React und Node.js · Python mit FastAPI und discord.py · Go für Kommandozeilen-Tools · "
+        hire_intro="Du willst mich einstellen oder ein Projekt mit UplyTech starten? Hier stehen die Angaben, nach denen Recruiter und Kunden zuerst fragen.",
+        hire=[("Rollen", "Full-Stack- und Backend-Entwicklung, DevOps und Serverbetrieb. Bei Webprojekten, die ich über UplyTech umsetze, übernehme ich auch die technische Planung und Leitung"),
+              ("Im Alltag", "Entwicklung, Auslieferung und Betrieb für Kunden von [UplyTech](https://www.uplytech.de), von der Oberfläche bis zum Server"),
+              ("Hauptstack", "TypeScript mit Next.js, React und Node.js · Python mit FastAPI und discord.py · Go für Kommandozeilen-Tools · "
                                   "PostgreSQL und Prisma · Docker, Linux und Cloudflare · CI mit CodeQL, OpenSSF Scorecard und signierten Releases"),
               ("Typische Aufträge", "Firmenwebsites und Web-Apps, Admin-Dashboards, REST-APIs, Discord-Bots mit Web-Dashboard, "
-                                    "Linux-Server mit Monitoring und Backups"),
-              ("Erfahrung", "Ich programmiere seit 2016 und habe es mir selbst beigebracht. Dienste im Live-Betrieb betreibe ich seit 2017, "
+                                    "Linux-Server mit Monitoring"),
+              ("Erfahrung", "Ich programmiere seit 2016 und habe es mir selbst beigebracht. Seit 2017 laufen Dienste von mir im Dauerbetrieb, "
                             "angefangen mit dem Minecraft-Netzwerk PlayGS"),
-              ("Nachweise", "{count} Zertifikate mit PDF, öffentlicher Code in den Repositories weiter unten und "
+              ("Nachweise", "{count} Kurszertifikate von Programming Hub, LinkedIn Learning und freeCodeCamp, {pdfs} davon mit PDF, öffentlicher Code in den Repositories weiter unten und "
                             "[VectolynCloud](https://www.bestpractices.dev/projects/16102) mit dem OpenSSF-Best-Practices-Badge (Passing)"),
               ("Verfügbarkeit", "Offen für Kundenprojekte und Zusammenarbeit"),
               ("Standort und Sprachen", "Itzehoe · Deutsch (Muttersprache), Englisch"),

@@ -13,12 +13,13 @@ from pathlib import Path
 from urllib.parse import quote
 
 from content import BADGES, CERTS, ISSUERS, LI_CERTS, LINKS, PROJECTS, SECTIONS, SOCIAL, SUPPORT, TEXT
-from tech import BADGE_BG, BADGE_FG, CATEGORIES, CORE, LOGOS
+from tech import BADGE_BG, BADGE_FG, CATEGORIES, CORE, LOGOS, NAMES_DE
 
 ROOT = Path(__file__).resolve().parents[2]
 CERT_DIR = ROOT / "certificates"
 FILES = {unicodedata.normalize("NFC", f.name): f.name for f in CERT_DIR.iterdir()}
 OUTPUT = {"en": "README.md", "de": "README.de.md"}
+ALT_PREFIX = {"web": "Website", "linkedin": "LinkedIn", "discord": "Discord"}
 LIVE_SITES = [("Tellersonne", "https://tellersonne.app"), ("VectoBeat", "https://vectobeat.uplytech.de"),
               ("UplyTech", "https://www.uplytech.de")]
 
@@ -60,7 +61,8 @@ def badge_row(key, lang):
     cells = []
     for name, _glyph, label, value, href in BADGES[key]:
         label, value = pick(label, lang), pick(value, lang)
-        cells.append(badge(f"{name}-{lang}", f"{label}: {value}" if label else value, href))
+        prefix = label or ALT_PREFIX.get(name)
+        cells.append(badge(f"{name}-{lang}", f"{prefix}: {value}" if prefix else value, href))
     # three on top, the rest below, so the rows stay balanced
     return '<p align="center">\n  ' + "\n  ".join(cells[:3]) + "<br>\n  " + "\n  ".join(cells[3:]) + "\n</p>"
 
@@ -138,9 +140,15 @@ def stack(lang):
     out += [html_table(rows), ""]
     out += [f"<details>\n<summary><b>{tx['stack_details'].format(count=count)}</b></summary>\n", tx["stack_legend"], ""]
     for _key, label, items in CATEGORIES:
-        out.append(f"- **{label[lang]}**: " + ", ".join(n + evidence(ev, tx) for n, _i, ev in items))
+        names = NAMES_DE if lang == "de" else {}
+        out.append(f"- **{label[lang]}**: " + ", ".join(names.get(n, n) + evidence(ev, tx) for n, _i, ev in items))
     out += ["\n</details>", "", tx["ideas"], ""]
     return out
+
+
+def timeline_alt(tx):
+    """The timeline image described in words, without Markdown links."""
+    return "; ".join(f"{y}: " + re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", d) for y, d in tx["timeline_rows"])
 
 
 def html_table(rows):
@@ -160,14 +168,14 @@ def build(lang):
     parts += [html_table([(f"<b>{k}</b>", md_inline(v)) for k, v in tx["facts"]]), ""]
 
     parts += [section("hire", lang), "", tx["hire_intro"], ""]
-    parts += [html_table([(f"<b>{k}</b>", md_inline(v.format(count=len(CERTS)))) for k, v in tx["hire"]]), ""]
+    parts += [html_table([(f"<b>{k}</b>", md_inline(v.format(count=len(CERTS), pdfs=sum(1 for c in CERTS if c[4])))) for k, v in tx["hire"]]), ""]
 
     parts += [section("services", lang), ""] + [f"- {s}" for s in tx["services"]] + [""]
 
     parts += [section("projects", lang), ""]
     for i in range(0, len(PROJECTS), 2):
-        cells = [asset(f"card-{key}", f"{name}: {text[lang]}", lang, "49%", url)
-                 for key, name, url, _icon, _status, text, _stack in PROJECTS[i:i + 2]]
+        cells = [asset(f"card-{key}", f"{name}: {status[lang]}", lang, "49%", url)
+                 for key, name, url, _icon, status, _text, _stack in PROJECTS[i:i + 2]]
         parts.append('<p align="center">\n  ' + "\n  ".join(cells) + "\n</p>")
     parts += ["", tx['projects_short'] + ":", ""]
     parts += [f"- [{name}]({url}): {text[lang]}" for _k, name, url, _i, _s, text, _st in PROJECTS] + [""]
@@ -178,7 +186,7 @@ def build(lang):
     parts += [f"| [{p}](https://github.com/VectoDE/{p}) | {d} | {lang_ or '-'} |" for p, d, lang_ in tx["smaller_rows"]]
     parts += ["\n</details>", ""]
 
-    parts += [section("timeline", lang), "", asset("timeline", tx["timeline_text"], lang), ""]
+    parts += [section("timeline", lang), "", asset("timeline", timeline_alt(tx), lang), ""]
     parts += [f"<details>\n<summary>{tx['timeline_text']}</summary>\n", "| | |", "| --- | --- |"]
     parts += [f"| **{y}** | {d} |" for y, d in tx["timeline_rows"]] + ["\n</details>", ""]
 
