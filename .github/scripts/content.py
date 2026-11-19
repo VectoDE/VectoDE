@@ -24,7 +24,7 @@ LINKS = {
 
 HERO = {
     "en": dict(
-        roles=["Founder & managing director of UplyTech", "Full-stack developer since 2017", "Web apps, APIs and Discord bots",
+        roles=["Founder of UplyTech", "Full-stack developer since 2017", "Web apps, APIs and Discord bots",
                "AI, automation and SaaS"],
         intro=["I plan, build and run software for companies,", "from the first sketch to the server it runs on."],
         available="Available for projects",
@@ -32,13 +32,13 @@ HERO = {
         layer="Frame",
         profile_title="Profile",
         profile=[("Role", "Founder & developer"), ("Company", "UplyTech"), ("Based in", "Itzehoe, Germany"),
-                 ("Building since", "2017"), ("Languages", "German, English")],
+                 ("Coding since", "2017"), ("Languages", "German, English")],
         stack_title="Stack",
         status_title="Currently building",
         zoom="Fit",
     ),
     "de": dict(
-        roles=["Gründer & Geschäftsführer von UplyTech", "Full-Stack-Entwickler seit 2017", "Web-Apps, APIs und Discord-Bots",
+        roles=["Gründer von UplyTech", "Full-Stack-Entwickler seit 2017", "Web-Apps, APIs und Discord-Bots",
                "KI, Automatisierung und SaaS"],
         intro=["Ich plane, entwickle und betreibe Software für", "Unternehmen, vom ersten Entwurf bis zum Server."],
         available="Offen für Projekte",
@@ -46,7 +46,7 @@ HERO = {
         layer="Rahmen",
         profile_title="Profil",
         profile=[("Rolle", "Gründer & Entwickler"), ("Firma", "UplyTech"), ("Standort", "Itzehoe"),
-                 ("Aktiv seit", "2017"), ("Sprachen", "Deutsch, Englisch")],
+                 ("Programmiert seit", "2017"), ("Sprachen", "Deutsch, Englisch")],
         stack_title="Stack",
         status_title="Aktuelles Projekt",
         zoom="Einpassen",
@@ -72,8 +72,8 @@ SECTIONS = {
 PROJECTS = [
     ("tellersonne", "Tellersonne", "https://tellersonne.app", "sun",
      {"en": "Live at tellersonne.app", "de": "Live auf tellersonne.app"},
-     {"en": "A calm cooking app for iOS, Android and tablets, with public recipe pages and a web admin panel. No ads, no tracking.",
-      "de": "Eine ruhige Koch-App für iOS, Android und Tablets, mit öffentlichen Rezeptseiten und Web-Adminbereich. Ohne Werbung, ohne Tracking."},
+     {"en": "A calm cooking app for iOS, Android and tablets, with public recipe pages and a web admin panel. No ads, no third-party analytics.",
+      "de": "Eine ruhige Koch-App für iOS, Android und Tablets, mit öffentlichen Rezeptseiten und Web-Adminbereich. Keine Werbung, keine Drittanbieter-Analyse."},
      ["TypeScript", "Cloudflare", "iOS", "Android"]),
     ("vectobeat", "VectoBeat", "https://vectobeat.uplytech.de", "wave",
      {"en": "Live and open source", "de": "Live und Open Source"},
@@ -123,12 +123,12 @@ PROJECTS = [
 ]
 
 TIMELINE = {
-    "en": [("2014", ["First contact with", "computers and tech"]), ("2016", ["Learned to code", "from YouTube"]),
-           ("2017", ["Founded the", "PlayGS network"]), ("2021", ["First", "certificates"]),
+    "en": [("2014", ["First contact with", "computers and tech"]), ("2016", ["First Minecraft", "projects"]),
+           ("2017", ["Started coding,", "founded PlayGS"]), ("2021", ["First", "certificates"]),
            ("2023", ["PHP, Laravel, Linux,", "volunteer CMO"]), ("2024", ["NodCord and the", "UplyTech API"]),
            ("2025", ["VectoBeat and", "new UplyTech site"]), ("2026", ["Started", "Tellersonne"])],
-    "de": [("2014", ["Erster Kontakt mit", "Computern und Technik"]), ("2016", ["Programmieren", "über YouTube gelernt"]),
-           ("2017", ["Gründung des", "PlayGS-Netzwerks"]), ("2021", ["Erste", "Zertifikate"]),
+    "de": [("2014", ["Erster Kontakt mit", "Computern und Technik"]), ("2016", ["Erste Projekte rund", "um Minecraft"]),
+           ("2017", ["Programmieren,", "PlayGS gegründet"]), ("2021", ["Erste", "Zertifikate"]),
            ("2023", ["PHP, Laravel, Linux,", "ehrenamtl. CMO"]), ("2024", ["NodCord und die", "UplyTech-API"]),
            ("2025", ["VectoBeat und neue", "UplyTech-Website"]), ("2026", ["Start von", "Tellersonne"])],
 }
@@ -158,7 +158,7 @@ STATS = {
                other="Andere", date_fmt="%d.%m.%Y"),
 }
 
-CODING_SINCE = 2016
+CODING_SINCE = 2017
 
 AWARDS = {
     "en": dict(title="Milestones", years="years of coding", certs="certificates", streak="days best streak",
@@ -175,21 +175,21 @@ TEXT = {
     "en": dict(
         hero_alt="Tim Hauke (VectoDE): founder of UplyTech and full-stack developer from Itzehoe, Germany",
         about=[
-            "I'm Tim, a self-taught full-stack developer from Itzehoe in northern Germany. I run [UplyTech](https://www.uplytech.de), "
-            "an IT service company that builds websites, web apps, APIs and custom software for clients, and then hosts and maintains what it ships.",
-            "My first contact with computers and tech came in 2014, and in 2016 I started teaching myself to code from YouTube tutorials. That led to "
-            "[PlayGS](https://www.playgs.de) in 2017, a Minecraft network with its own plugins, a shop and a TeamSpeak, which I still run. "
+            "I'm Tim, a self-taught full-stack developer from Itzehoe in northern Germany. I founded [UplyTech](https://www.uplytech.de), "
+            "a community and project for development, design, video and marketing, where I build websites, web apps, APIs and custom software and then host and maintain what I ship.",
+            "My first contact with computers and tech came in 2014, and my first Minecraft projects followed in 2016. In 2017 I started coding and taught myself from YouTube tutorials. That led to "
+            "PlayGS, a Minecraft network with its own plugins, a shop and a TeamSpeak that I ran from 2017 to 2019. "
             "Before all of this took over my evenings I played football for SSC Phönix Kisdorf. Most of my own projects started as fixes "
             "for my own problems, like a music bot for my Discord server or a script that redeploys apps when I push. "
             "Most of my time right now goes into **Tellersonne**, my cooking app for iOS and Android, live at [tellersonne.app](https://tellersonne.app).",
         ],
         facts=[("Based in", "Itzehoe, Schleswig-Holstein, Germany"),
-               ("Company", "Founder and managing director of [UplyTech](https://www.uplytech.de)"),
-               ("Working on", "[Tellersonne](https://tellersonne.app), recipes without ads or tracking"),
+               ("Company", "Founder of [UplyTech](https://www.uplytech.de), a community and project, not yet a registered business"),
+               ("Working on", "[Tellersonne](https://tellersonne.app), recipes without ads or third-party analytics"),
                ("Day-to-day stack", "TypeScript, Next.js, Node.js, Python, Go, Prisma, Docker, Cloudflare"),
                ("Stacks", "MEVN, MERN, MEEN and MENN, plus Electron, TypeScript, MySQL, Prisma and Tailwind CSS"),
                ("Languages", "German (native), English"),
-               ("Open to", "Client projects and collaborations on web apps, software, APIs and Discord bots"),
+               ("Open to", "Client projects, freelance work and a permanent position, remote, on site or hybrid. Web apps, software, APIs and Discord bots"),
                ("Fun fact", "I like taking a system that grew messy and making it fast and easy to scale"),
                ("Contact", "UplyTech: [contact@uplytech.de](mailto:contact@uplytech.de) or [timhauke@uplytech.de](mailto:timhauke@uplytech.de). "
                            "Personal, not UplyTech: [timhauke99@gmail.com](mailto:timhauke99@gmail.com)")],
@@ -203,17 +203,17 @@ TEXT = {
         ],
         project_links="Live sites",
         projects_short="Every project in one sentence",
-        hire_intro="Looking to hire me, or to start a project with UplyTech? These are the facts recruiters and clients ask for first.",
-        hire=[("Roles", "Full-stack and backend development, DevOps and server operations. On the web projects I deliver through UplyTech I also plan and lead the technical side"),
-              ("Day to day", "Development, deployment and operations for [UplyTech](https://www.uplytech.de) clients, from the interface to the server"),
+        hire_intro="Looking to hire me, or to start a project together? These are the facts recruiters and clients ask for first.",
+        hire=[("Roles", "Full-stack and backend development, DevOps and server operations. On web projects I also plan and lead the technical side"),
+              ("Day to day", "Development, deployment and operations for client projects, many of them under the [UplyTech](https://www.uplytech.de) name, from the interface to the server"),
               ("Main stack", "TypeScript with Next.js, React and Node.js · Python with FastAPI and discord.py · Go for command-line tools · "
                                "PostgreSQL and Prisma · Docker, Linux and Cloudflare · CI with CodeQL, OpenSSF Scorecard and signed releases"),
               ("Typical work", "Company websites and web apps, admin dashboards, REST APIs, Discord bots with a web dashboard, "
                                "Linux servers with monitoring"),
-              ("Experience", "Coding since 2016, self-taught. Running live services since 2017, starting with the PlayGS Minecraft network"),
+              ("Experience", "Coding since 2017, self-taught. Live services since 2017, from the PlayGS Minecraft network to Tellersonne today"),
               ("Proof", "{count} course certificates from Programming Hub, LinkedIn Learning and freeCodeCamp, {pdfs} of them with a PDF, public code in the repositories below, and "
                         "[VectolynCloud](https://www.bestpractices.dev/projects/16102) with the OpenSSF Best Practices badge (passing)"),
-              ("Availability", "Open to client projects and collaborations"),
+              ("Availability", "Open to client projects and freelance work as well as a permanent position. Remote, on site or hybrid"),
               ("Location and languages", "Itzehoe, Germany · German (native), English"),
               ("Contact", "[contact@uplytech.de](mailto:contact@uplytech.de) or [LinkedIn](https://www.linkedin.com/in/tim-hauke-b3b24b2b5)")],
         smaller="Smaller tools and templates",
@@ -229,8 +229,9 @@ TEXT = {
         timeline_text="Timeline as text",
         timeline_rows=[
             ("2014", "First contact with computers and tech"),
-            ("2016", "Started learning to code from YouTube tutorials"),
-            ("2017", "Founded [PlayGS](https://www.playgs.de), a Minecraft network with every game mode on one server, own plugins, a shop and TeamSpeak"),
+            ("2016", "First Minecraft projects"),
+            ("2017", "Started coding. Founded PlayGS, a Minecraft network with every game mode on one server, own plugins, a shop and TeamSpeak (2017 to 2019)"),
+            ("2018", "Started ServerwerkNET, a development organisation (2018 to 2020)"),
             ("2021", "First certificates in HTML, Node.js and building websites"),
             ("2023", "Worked through PHP, Laravel, Java, Linux, networking, Git and GraphQL. Volunteer CMO at BonToGo (Nov 2023 to Jun 2024): marketing plan and social media"),
             ("2024", "Released NodCord and built the UplyTech API. Courses on LinkedIn Learning and the freeCodeCamp Responsive Web Design certification"),
@@ -252,9 +253,9 @@ TEXT = {
         stats_alt="GitHub activity: contributions and commits in the last year, current streak, repositories, stars, followers and languages",
         stats_note="Built from the GitHub API by a daily workflow in this repository.",
         org_head=("Organisation", "Role"),
-        orgs=[("UplyTech", "https://github.com/UplyTech", "Founder. IT services: development, design, video and marketing ([www.uplytech.de](https://www.uplytech.de))"),
-              ("PlayGS Netzwerk", "https://github.com/PlayGS-Netzwerk", "Founder since 2017. Minecraft network with every game mode in one place ([playgs.de](https://www.playgs.de))"),
-              ("ServerwerkNET", "https://github.com/ServerwerkNET", "Development organisation for [serverwerk.net](https://serverwerk.net)"),
+        orgs=[("UplyTech", "https://github.com/UplyTech", "Founder. Community and project for development, design, video and marketing ([www.uplytech.de](https://www.uplytech.de))"),
+              ("PlayGS Netzwerk", "https://github.com/PlayGS-Netzwerk", "Founder, 2017 to 2019. Former Minecraft network with every game mode in one place"),
+              ("ServerwerkNET", "https://github.com/ServerwerkNET", "Development organisation, 2018 to 2020. Former project"),
               ("MitFits Gaming", "https://github.com/Mitfits-Gaming", "Founded the esports club in April 2025, handed over in September 2026")],
         link_rows=["Social", "Video and music", "Gaming", "Code", "UplyTech"],
         support="If one of my tools saved you time, you can support my open-source work here.",
@@ -268,21 +269,21 @@ TEXT = {
     "de": dict(
         hero_alt="Tim Hauke (VectoDE): Gründer von UplyTech und Full-Stack-Entwickler aus Itzehoe",
         about=[
-            "Ich bin Tim, Full-Stack-Entwickler aus Itzehoe und habe mir das Programmieren selbst beigebracht. Ich führe [UplyTech](https://www.uplytech.de), "
-            "einen IT-Dienstleister, der Websites, Web-Apps, APIs und individuelle Software für Kunden baut und das Ergebnis danach auch hostet und pflegt.",
-            "2014 hatte ich den ersten Kontakt mit Computern und Technik, 2016 habe ich angefangen, mir das Programmieren mit YouTube-Tutorials beizubringen. Daraus wurde 2017 "
-            "[PlayGS](https://www.playgs.de), ein Minecraft-Netzwerk mit eigenen Plugins, Shop und TeamSpeak, das ich bis heute betreibe. "
+            "Ich bin Tim, Full-Stack-Entwickler aus Itzehoe und habe mir das Programmieren selbst beigebracht. Ich habe [UplyTech](https://www.uplytech.de) gegründet, "
+            "eine Community und ein Projekt für Entwicklung, Design, Video und Marketing, in dem ich Websites, Web-Apps, APIs und individuelle Software baue und das Ergebnis danach auch hoste und pflege.",
+            "2014 hatte ich den ersten Kontakt mit Computern und Technik, 2016 folgten meine ersten Projekte rund um Minecraft. 2017 habe ich mit dem Programmieren angefangen und es mir mit YouTube-Tutorials beigebracht. Daraus wurde "
+            "PlayGS, ein Minecraft-Netzwerk mit eigenen Plugins, Shop und TeamSpeak, das ich von 2017 bis 2019 betrieben habe. "
             "Bevor das meine Abende gefüllt hat, habe ich beim SSC Phönix Kisdorf Fußball gespielt. Die meisten meiner eigenen Projekte "
             "sind aus eigenen Problemen entstanden, etwa ein Musikbot für meinen Discord-Server oder ein Skript, das Apps nach jedem Push neu ausrollt. "
             "Die meiste Zeit steckt gerade in **Tellersonne**, meiner Koch-App für iOS und Android, live auf [tellersonne.app](https://tellersonne.app).",
         ],
         facts=[("Standort", "Itzehoe, Schleswig-Holstein"),
-               ("Firma", "Gründer und Geschäftsführer von [UplyTech](https://www.uplytech.de)"),
-               ("Aktuelles Projekt", "[Tellersonne](https://tellersonne.app), Rezepte ohne Werbung und Tracking"),
+               ("Firma", "Gründer von [UplyTech](https://www.uplytech.de), einer Community und einem Projekt, noch kein Gewerbe"),
+               ("Aktuelles Projekt", "[Tellersonne](https://tellersonne.app), Rezepte ohne Werbung und Drittanbieter-Analyse"),
                ("Täglicher Stack", "TypeScript, Next.js, Node.js, Python, Go, Prisma, Docker, Cloudflare"),
                ("Stacks", "MEVN, MERN, MEEN und MENN, dazu Electron, TypeScript, MySQL, Prisma und Tailwind CSS"),
                ("Sprachen", "Deutsch (Muttersprache), Englisch"),
-               ("Offen für", "Kundenprojekte und Zusammenarbeit bei Web-Apps, Software, APIs und Discord-Bots"),
+               ("Offen für", "Projektaufträge, Freelance und Festanstellung, remote, vor Ort oder hybrid. Web-Apps, Software, APIs und Discord-Bots"),
                ("Fun Fact", "Ich nehme gern ein System, das unübersichtlich gewachsen ist, und mache es schnell und skalierbar"),
                ("Kontakt", "UplyTech: [contact@uplytech.de](mailto:contact@uplytech.de) oder [timhauke@uplytech.de](mailto:timhauke@uplytech.de). "
                            "Privat, nicht UplyTech: [timhauke99@gmail.com](mailto:timhauke99@gmail.com)")],
@@ -296,18 +297,18 @@ TEXT = {
         ],
         project_links="Live-Seiten",
         projects_short="Alle Projekte in einem Satz",
-        hire_intro="Du willst mich einstellen oder ein Projekt mit UplyTech starten? Hier stehen die Angaben, nach denen Recruiter und Kunden zuerst fragen.",
-        hire=[("Rollen", "Full-Stack- und Backend-Entwicklung, DevOps und Serverbetrieb. Bei Webprojekten, die ich über UplyTech umsetze, übernehme ich auch die technische Planung und Leitung"),
-              ("Im Alltag", "Entwicklung, Auslieferung und Betrieb für Kunden von [UplyTech](https://www.uplytech.de), von der Oberfläche bis zum Server"),
+        hire_intro="Du willst mich einstellen oder ein Projekt gemeinsam starten? Hier stehen die Angaben, nach denen Recruiter und Kunden zuerst fragen.",
+        hire=[("Rollen", "Full-Stack- und Backend-Entwicklung, DevOps und Serverbetrieb. Bei Webprojekten übernehme ich auch die technische Planung und Leitung"),
+              ("Im Alltag", "Entwicklung, Auslieferung und Betrieb für Kundenprojekte, viele davon unter dem Namen [UplyTech](https://www.uplytech.de), von der Oberfläche bis zum Server"),
               ("Hauptstack", "TypeScript mit Next.js, React und Node.js · Python mit FastAPI und discord.py · Go für Kommandozeilen-Tools · "
                                   "PostgreSQL und Prisma · Docker, Linux und Cloudflare · CI mit CodeQL, OpenSSF Scorecard und signierten Releases"),
               ("Typische Aufträge", "Firmenwebsites und Web-Apps, Admin-Dashboards, REST-APIs, Discord-Bots mit Web-Dashboard, "
                                     "Linux-Server mit Monitoring"),
-              ("Erfahrung", "Ich programmiere seit 2016 und habe es mir selbst beigebracht. Seit 2017 laufen Dienste von mir im Dauerbetrieb, "
-                            "angefangen mit dem Minecraft-Netzwerk PlayGS"),
+              ("Erfahrung", "Ich programmiere seit 2017 und habe es mir selbst beigebracht. Seit 2017 laufen Dienste von mir im Dauerbetrieb, "
+                            "vom Minecraft-Netzwerk PlayGS bis zu Tellersonne heute"),
               ("Nachweise", "{count} Kurszertifikate von Programming Hub, LinkedIn Learning und freeCodeCamp, {pdfs} davon mit PDF, öffentlicher Code in den Repositories weiter unten und "
                             "[VectolynCloud](https://www.bestpractices.dev/projects/16102) mit dem OpenSSF-Best-Practices-Badge (Passing)"),
-              ("Verfügbarkeit", "Offen für Kundenprojekte und Zusammenarbeit"),
+              ("Verfügbarkeit", "Offen für Projektaufträge und Freelance sowie für eine Festanstellung. Remote, vor Ort oder hybrid"),
               ("Standort und Sprachen", "Itzehoe · Deutsch (Muttersprache), Englisch"),
               ("Kontakt", "[contact@uplytech.de](mailto:contact@uplytech.de) oder [LinkedIn](https://www.linkedin.com/in/tim-hauke-b3b24b2b5)")],
         smaller="Kleinere Tools und Vorlagen",
@@ -323,8 +324,9 @@ TEXT = {
         timeline_text="Werdegang als Text",
         timeline_rows=[
             ("2014", "Erster Kontakt mit Computern und Technik"),
-            ("2016", "Mit YouTube-Tutorials angefangen, programmieren zu lernen"),
-            ("2017", "[PlayGS](https://www.playgs.de) gegründet, ein Minecraft-Netzwerk mit allen Spielmodi auf einem Server, eigenen Plugins, Shop und TeamSpeak"),
+            ("2016", "Erste Projekte rund um Minecraft"),
+            ("2017", "Mit dem Programmieren angefangen. PlayGS gegründet, ein Minecraft-Netzwerk mit allen Spielmodi auf einem Server, eigenen Plugins, Shop und TeamSpeak (2017 bis 2019)"),
+            ("2018", "ServerwerkNET gestartet, eine Entwicklungsorganisation (2018 bis 2020)"),
             ("2021", "Erste Zertifikate in HTML, Node.js und Website-Erstellung"),
             ("2023", "PHP, Laravel, Java, Linux, Netzwerke, Git und GraphQL gelernt. Ehrenamtlicher CMO bei BonToGo (Nov. 2023 bis Juni 2024): Marketingplan und Social Media"),
             ("2024", "NodCord veröffentlicht und die UplyTech-API gebaut. Kurse bei LinkedIn Learning und die Zertifizierung Responsive Web Design von freeCodeCamp"),
@@ -346,9 +348,9 @@ TEXT = {
         stats_alt="GitHub-Aktivität: Beiträge und Commits im letzten Jahr, aktuelle Serie, Repositories, Sterne, Follower und Sprachen",
         stats_note="Wird täglich von einem Workflow in diesem Repository aus der GitHub-API erzeugt.",
         org_head=("Organisation", "Rolle"),
-        orgs=[("UplyTech", "https://github.com/UplyTech", "Gründer. IT-Dienstleistungen: Entwicklung, Design, Video und Marketing ([www.uplytech.de](https://www.uplytech.de))"),
-              ("PlayGS Netzwerk", "https://github.com/PlayGS-Netzwerk", "Gründer seit 2017. Minecraft-Netzwerk mit allen Spielmodi an einem Ort ([playgs.de](https://www.playgs.de))"),
-              ("ServerwerkNET", "https://github.com/ServerwerkNET", "Entwicklungsorganisation für [serverwerk.net](https://serverwerk.net)"),
+        orgs=[("UplyTech", "https://github.com/UplyTech", "Gründer. Community und Projekt für Entwicklung, Design, Video und Marketing ([www.uplytech.de](https://www.uplytech.de))"),
+              ("PlayGS Netzwerk", "https://github.com/PlayGS-Netzwerk", "Gründer, 2017 bis 2019. Früheres Minecraft-Netzwerk mit allen Spielmodi an einem Ort"),
+              ("ServerwerkNET", "https://github.com/ServerwerkNET", "Entwicklungsorganisation, 2018 bis 2020. Früheres Projekt"),
               ("MitFits Gaming", "https://github.com/Mitfits-Gaming", "E-Sport-Club im April 2025 gegründet, im September 2026 übergeben")],
         link_rows=["Social Media", "Video und Musik", "Gaming", "Code", "UplyTech"],
         support="Wenn dir eines meiner Tools Zeit gespart hat, kannst du meine Open-Source-Arbeit hier unterstützen.",
@@ -375,7 +377,7 @@ BADGES = {
         ("open", "live", None, {"en": "Available for projects", "de": "Offen für Projekte"}, "mailto:" + LINKS["email_company"]),
         ("founder", "building", {"en": "Founder", "de": "Gründer"}, "UplyTech", LINKS["company"]),
         ("location", "pin", {"en": "Based in", "de": "Standort"}, "Itzehoe, DE", None),
-        ("since", "code", {"en": "Coding since", "de": "Programmiert seit"}, "2016", None),
+        ("since", "code", {"en": "Coding since", "de": "Programmiert seit"}, "2017", None),
         ("langs", "chat", {"en": "Speaks", "de": "Spricht"}, {"en": "German, English", "de": "Deutsch, Englisch"}, None),
     ],
 }
