@@ -12,12 +12,14 @@ import unicodedata
 from pathlib import Path
 from urllib.parse import quote
 
-from content import BADGES, CERTS, ISSUERS, LI_CERTS, LINKS, PROJECTS, SECTIONS, SOCIAL, SUPPORT, TECH_ROWS, TEXT
+from content import BADGES, CERTS, ISSUERS, LI_CERTS, LINKS, PROJECTS, SECTIONS, SOCIAL, SUPPORT, TEXT
+from tech import BADGE_BG, BADGE_FG, CATEGORIES, CORE, LOGOS, NAMES_DE
 
 ROOT = Path(__file__).resolve().parents[2]
 CERT_DIR = ROOT / "certificates"
 FILES = {unicodedata.normalize("NFC", f.name): f.name for f in CERT_DIR.iterdir()}
 OUTPUT = {"en": "README.md", "de": "README.de.md"}
+ALT_PREFIX = {"web": "Website", "linkedin": "LinkedIn", "discord": "Discord"}
 LIVE_SITES = [("Tellersonne", "https://tellersonne.app"), ("VectoBeat", "https://vectobeat.uplytech.de"),
               ("UplyTech", "https://www.uplytech.de")]
 
@@ -59,7 +61,8 @@ def badge_row(key, lang):
     cells = []
     for name, _glyph, label, value, href in BADGES[key]:
         label, value = pick(label, lang), pick(value, lang)
-        cells.append(badge(f"{name}-{lang}", f"{label}: {value}" if label else value, href))
+        prefix = label or ALT_PREFIX.get(name)
+        cells.append(badge(f"{name}-{lang}", f"{prefix}: {value}" if prefix else value, href))
     # three on top, the rest below, so the rows stay balanced
     return '<p align="center">\n  ' + "\n  ".join(cells[:3]) + "<br>\n  " + "\n  ".join(cells[3:]) + "\n</p>"
 
@@ -101,6 +104,53 @@ def cert_tables(lang):
     return "\n".join(out)
 
 
+def shield(name, theme):
+    """Text badge in the colours of the skillicons tiles, with a Simple Icons logo when one exists."""
+    text = quote(name.replace("-", "--").replace("_", "__"), safe="")
+    url = f"https://img.shields.io/badge/{text}-{BADGE_BG[theme]}?style=for-the-badge"
+    slug = LOGOS.get(name)
+    if slug:
+        url += f"&logo={quote(slug)}&logoColor={BADGE_FG[theme]}"
+    return url
+
+
+def evidence(ev, tx):
+    if ev is None:
+        return ""
+    if ev == "private":
+        return f" (*{tx['private_label']}*)"
+    repo = ev if "/" in ev else f"VectoDE/{ev}"
+    return f" ([{repo.split('/')[1]}](https://github.com/{repo}))"
+
+
+def stack(lang):
+    tx = TEXT[lang]
+    count = sum(len(items) for _, _, items in CATEGORIES)
+    out = [tx["stack_intro"], "", f"**{tx['core_label']}:** " + " · ".join(CORE), ""]
+    rows = []
+    for _key, label, items in CATEGORIES:
+        with_icon = [(n, i) for n, i, _ in items if i]
+        icons = ""
+        if with_icon:
+            # a plain comma would split the srcset into several candidates, so it is encoded
+            base = f"https://skillicons.dev/icons?i={'%2C'.join(i for _, i in with_icon)}&perline=13&theme="
+            icons = picture(base + "dark", base + "light", ", ".join(n for n, _ in with_icon), None)
+        badges = " ".join(picture(shield(n, "dark"), shield(n, "light"), n, None) for n, i, _ in items if not i)
+        rows.append((f"<b>{label[lang]}</b>", "<br>".join(x for x in (icons, badges) if x)))
+    out += [html_table(rows), ""]
+    out += [f"<details>\n<summary><b>{tx['stack_details'].format(count=count)}</b></summary>\n", tx["stack_legend"], ""]
+    for _key, label, items in CATEGORIES:
+        names = NAMES_DE if lang == "de" else {}
+        out.append(f"- **{label[lang]}**: " + ", ".join(names.get(n, n) + evidence(ev, tx) for n, _i, ev in items))
+    out += ["\n</details>", "", tx["ideas"], ""]
+    return out
+
+
+def timeline_alt(tx):
+    """The timeline image described in words, without Markdown links."""
+    return "; ".join(f"{y}: " + re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", d) for y, d in tx["timeline_rows"])
+
+
 def html_table(rows):
     lines = ["<table>"] + ["  <tr>" + "".join(f"<td>{c}</td>" for c in cells) + "</tr>" for cells in rows] + ["</table>"]
     return "\n".join(lines)
@@ -117,30 +167,30 @@ def build(lang):
         parts += [paragraph, ""]
     parts += [html_table([(f"<b>{k}</b>", md_inline(v)) for k, v in tx["facts"]]), ""]
 
+    parts += [section("hire", lang), "", tx["hire_intro"], ""]
+    parts += [html_table([(f"<b>{k}</b>", md_inline(v.format(count=len(CERTS), pdfs=sum(1 for c in CERTS if c[4])))) for k, v in tx["hire"]]), ""]
+
     parts += [section("services", lang), ""] + [f"- {s}" for s in tx["services"]] + [""]
 
     parts += [section("projects", lang), ""]
     for i in range(0, len(PROJECTS), 2):
-        cells = [asset(f"card-{key}", f"{name}: {text[lang]}", lang, "49%", url)
-                 for key, name, url, _icon, _status, text, _stack in PROJECTS[i:i + 2]]
+        cells = [asset(f"card-{key}", f"{name}: {status[lang]}", lang, "49%", url)
+                 for key, name, url, _icon, status, _text, _stack in PROJECTS[i:i + 2]]
         parts.append('<p align="center">\n  ' + "\n  ".join(cells) + "\n</p>")
+    parts += ["", tx['projects_short'] + ":", ""]
+    parts += [f"- [{name}]({url}): {text[lang]}" for _k, name, url, _i, _s, text, _st in PROJECTS] + [""]
     parts += ['<p align="center"><sub>' + tx["project_links"] + ": " +
               ", ".join(f'{n} <a href="{u}">{u.split("//")[1]}</a>' for n, u in LIVE_SITES) + "</sub></p>", ""]
     h = tx["smaller_head"]
     parts += [f"<details>\n<summary><b>{tx['smaller']}</b></summary>\n", f"| {h[0]} | {h[1]} | {h[2]} |", "| --- | --- | --- |"]
-    parts += [f"| [{p}](https://github.com/VectoDE/{p}) | {d} | {lang_} |" for p, d, lang_ in tx["smaller_rows"]]
+    parts += [f"| [{p}](https://github.com/VectoDE/{p}) | {d} | {lang_ or '-'} |" for p, d, lang_ in tx["smaller_rows"]]
     parts += ["\n</details>", ""]
 
-    parts += [section("timeline", lang), "", asset("timeline", tx["timeline_text"], lang), ""]
+    parts += [section("timeline", lang), "", asset("timeline", timeline_alt(tx), lang), ""]
     parts += [f"<details>\n<summary>{tx['timeline_text']}</summary>\n", "| | |", "| --- | --- |"]
     parts += [f"| **{y}** | {d} |" for y, d in tx["timeline_rows"]] + ["\n</details>", ""]
 
-    parts += [section("stack", lang), ""]
-    rows = []
-    for (icons, alt), label in zip(TECH_ROWS, tx["stack_rows"]):
-        base = f"https://skillicons.dev/icons?i={icons}&theme="
-        rows.append((f"<b>{label}</b>", picture(base + "dark", base + "light", alt, None)))
-    parts += [html_table(rows), ""]
+    parts += [section("stack", lang), ""] + stack(lang)
 
     issuers = " ".join(badge(f"issuer-{key}", f"{name}: {sum(1 for c in CERTS if c[2] == name)}")
                        for key, name, _glyph, _color in ISSUERS)
